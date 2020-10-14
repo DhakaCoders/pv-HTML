@@ -20,6 +20,24 @@ button:focus {
     outline:none !important;
     box-shadow: none !important;
 }
+.ulc{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.overlay-link{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+.inline-bg{
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+}
 @font-face {
     font-family: 'Futura LT Regular';
     font-style: normal;
