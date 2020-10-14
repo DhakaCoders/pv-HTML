@@ -1,0 +1,202 @@
+.header{
+	padding: 22px 25px;
+}
+
+.hdr-lft{
+	float: left;
+}
+.hdr-rgt{
+	float: right;
+}
+.hdr-shortcut,
+.hdr-notification,
+.hdr-lang,
+.hdr-lang,
+.hdr-profile{
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+.humbergar-cntlr{
+	position: relative;
+}
+.humbergar-icon{
+	position: relative;
+	height: 20px;
+	width: 24px;
+	cursor: pointer;
+}
+.humbergar-icon span{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 2px;
+	width: 24px;
+	background: #FFFFFF;
+}
+.humbergar-icon span:nth-child(2){
+	top: 8px;
+}
+.humbergar-icon span:nth-child(3){
+	top: 16px;
+}
+.humbergar-cntlr{
+	display: inline-block;
+	vertical-align: baseline;
+	margin-right: 25px;
+}
+.hdr-logo{
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+.hdr-shortcut{
+	margin-right: 40px;
+}
+.hdr-shortcut-ctlr{
+	display: flex;
+	align-items: center;
+}
+.hdr-shortcut-ctlr i{
+	display: inline-block;
+	vertical-align: baseline;
+	margin-right: 10px;
+}
+.hdr-shortcut-ctlr strong{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 11px;
+	color: #fff;
+	font-family: 'Futura LT Book';
+}
+
+.hdr-notification{
+	margin-right: 30px;
+}
+.hdr-notification a{
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+.hdr-lang{
+	position: relative;
+	min-height: 24px;
+	padding-left: 5px;
+	min-width: 50px;
+	margin-right: 35px;
+}
+.hdr-lang ul li.lang-active{
+	position: relative;
+	opacity: 1;
+	padding-top: 0;
+}
+.hdr-lang ul li.lang-active a{
+	font-size: 13px;
+}
+.hdr-lang ul li{
+	position: absolute;
+	text-align: right;
+	left: 0;
+	right: 0;
+	padding-right: 15px;
+	opacity: 0;
+	z-index: 22;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.hdr-lang ul li a{
+	color: #DAE0E6;
+	font-size: 13px;
+	line-height: 1;
+	font-family: 'Futura LT Book';
+}
+.hdr-lang ul li a:hover{
+	color: #fff;
+}
+.hdr-lang:after{
+	content: "";
+    padding-right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    right: 10px;
+    z-index: 100;
+    background: url('../images/hdr-down-arrow.png');
+    background-repeat: no-repeat;
+    height: 4px;
+    width: 8px;
+}
+.hdr-lang ul{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -10px;
+	z-index: 20;
+	padding: 10px 10px 5px 5px;
+}
+
+
+.hdr-lang:hover{
+	overflow: initial!important;
+}
+.hdr-lang:hover li.lang-active,
+.hdr-lang:hover li{
+	position: relative;
+	opacity: 1!important;
+	padding-top: 0;
+	padding-right: 15px;
+}
+
+.hdr-profile-ctlr{
+	display: flex;
+	align-items: center;
+}
+.hdr-profile-ctlr i{
+	margin-right: 10px;
+	height: 36px;
+	width: 36px;
+	background: #00D3AA;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hdr-profile-ctlr strong{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 11px;
+	color: #fff;
+	font-family: 'Futura LT Book';
+}
+
+
+
+
+/*left sidebar*/
+
+
+.left-sidebar{
+	padding: 25px 15px 0 25px;
+	background: #000028;
+	width: 235px;
+	height: 100%;
+}
+.left-sidebar-ctlr ul li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.left-sidebar-ctlr ul li i{
+	display: inline-block;
+	vertical-align: baseline;
+	margin-right: 22px;
+}
+.left-sidebar-ctlr ul li span{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 14px;
+	color: #b3bdc7;
+	font-weight: 400;
+}
