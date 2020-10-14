@@ -1,0 +1,274 @@
+#login-page {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+.login-section-left {
+    position: relative;
+    background-color: #f1f2f8;
+    width: 43%;
+    order: 1;
+}
+.login-section-left .login-form-wrapper {
+    font-family: "Futura LT Book";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 70px 15px;
+    width: 390px;
+    max-width: calc(100% - 30px);
+}
+.login-section-left .login-form-wrapper .logo {
+    display: block;
+    width: 217px;
+    margin: 0 auto 73px;
+}
+.login-section-left .login-form-wrapper .input-wrapper {
+    position: relative;
+    margin: 0 0 23px;
+}
+.login-section-left .login-form-wrapper label {
+    font-family: "Futura LT Regular";
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.36;
+    color: #000000;
+    margin: 0 0 10px;
+}
+.login-section-left .login-form-wrapper [type="text"],
+.login-section-left .login-form-wrapper [type="password"] {
+    width: 100%;
+    padding: 16px 16px 15px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    font-size: 14px;
+    line-height: 1.36;
+    color: #000000;
+}
+.login-section-left .login-form-wrapper [type="text"]::-webkit-input-placeholder,
+.login-section-left .login-form-wrapper [type="text"]:-ms-input-placeholder,
+.login-section-left .login-form-wrapper [type="text"]::placeholder,
+.login-section-left .login-form-wrapper [type="password"]::-webkit-input-placeholder,
+.login-section-left .login-form-wrapper [type="password"]:-ms-input-placeholder,
+.login-section-left .login-form-wrapper [type="password"]::placeholder {
+    color: #8a8e93;
+}
+.login-section-left .login-form-wrapper .input-wrapper.has-password-field {
+    padding-bottom: 50px;
+}
+.login-section-left .login-form-wrapper .input-wrapper.has-password-field label {
+    padding-right: 110px;
+}
+.login-section-left .login-form-wrapper .input-wrapper.has-password-field a.forgot-password {
+    font-size: 14px;
+    line-height: 1.36;
+    color: #00a1e4;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.login-section-left .login-form-wrapper .input-wrapper.has-password-field a.toggle-password {
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+    padding: 5px 15px;
+    font-family: "ForkAwesome";
+    font-size: 16px;
+    line-height: 16px;
+    color: #a3a8ad;
+    border-left: 1px solid #dae0e6;
+}
+.login-section-left .login-form-wrapper .input-wrapper.has-password-field a.toggle-password:before {
+    content: "\f06e";
+}
+.login-section-left .login-form-wrapper .input-wrapper.has-password-field [type="text"],
+.login-section-left .login-form-wrapper .input-wrapper.has-password-field [type="password"] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.login-section-left .login-form-wrapper .input-wrapper.has-password-field [type="text"] {
+    z-index: -1;
+    visibility: hidden;
+}
+.login-section-left .login-form-wrapper .input-wrapper.has-password-field.show-password-text [type="text"] {
+    z-index: auto;
+    visibility: visible;
+}
+.login-section-left .login-form-wrapper .input-wrapper.has-password-field.show-password-text [type="password"] {
+    z-index: -1;
+    visibility: hidden;
+}
+.login-section-left .login-form-wrapper .input-wrapper.has-password-field.show-password-text a.toggle-password:before {
+    content: "\f070";
+}
+.login-section-left .login-form-wrapper .input-wrapper.has-checkbox-field [type="checkbox"] {
+    visibility: hidden;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    z-index: -1;
+}
+.login-section-left .login-form-wrapper .input-wrapper.has-checkbox-field [type="checkbox"] + label {
+    font-family: "Futura LT Book";
+    padding-left: 31px;
+    margin: 0;
+    font-size: 13px;
+    line-height: 21px;
+}
+.login-section-left .login-form-wrapper .input-wrapper.has-checkbox-field [type="checkbox"] + label:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    font-family: "ForkAwesome";
+    font-size: 14px;
+    line-height: 21px;
+    width: 21px;
+    height: 21px;
+    border-radius: 4px;
+    border: solid 1px #dae0e6;
+    background-color: #ffffff;
+    text-align: center;
+}
+.login-section-left .login-form-wrapper .input-wrapper.has-checkbox-field [type="checkbox"]:checked + label:before {
+    content: "\f00c";
+}
+.login-section-left .login-form-wrapper [type="submit"] {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #000029;
+    font-family: "Futura LT Bold";
+    font-size: 14px;
+    line-height: 1.36;
+    padding: 17px 20px;
+    margin: 40px 0 0;
+    text-align: center;
+    color: #ffffff;
+}
+.login-section-right {
+    position: relative;
+    width: 57%;
+    background-image: url("../images/login-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    order: 2;
+    overflow: hidden;
+}
+.login-section-right:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.87;
+    background-image: linear-gradient(64deg, #01b4d6 -28%, #0351ff 88%);
+}
+.login-section-right .login-info-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 70px 15px;
+    width: 470px;
+    max-width: calc(100% - 30px);
+    text-align: center;
+    color: #ffffff;
+}
+.login-section-right .login-info-wrapper:before {
+    content: "";
+    position: absolute;
+    top: calc(100% - 180px);
+    left: 50%;
+    margin-left: -220px;
+    width: 440px;
+    height: 0;
+    padding-bottom: 104%;
+    background-image: url("../images/map-greece-bg.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.login-section-right .login-info-wrapper > .title {
+    font-family: "Futura LT Bold";
+    font-size: 28px;
+    line-height: 1.32;
+    letter-spacing: 0.56px;
+    max-width: 310px;
+    margin: 0 auto 86px;
+    position: relative;
+    z-index: 1;
+}
+.login-section-right .login-info-wrapper .counters {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+.login-section-right .login-info-wrapper .counters .counter {
+    width: calc(33.33% - 28px);
+    margin-right: 42px;
+}
+.login-section-right .login-info-wrapper .counters .counter:last-child {
+    margin-right: 0;
+}
+.login-section-right .login-info-wrapper .counters .counter .num {
+    font-family: "Futura LT Bold";
+    font-size: 64px;
+    line-height: 1.17;
+    letter-spacing: 1.28px;
+}
+.login-section-right .login-info-wrapper .counters .counter .title {
+    font-family: Futura LT Regular;
+    font-size: 16px;
+    line-height: 1.31;
+    letter-spacing: 0.32px;
+}
+.login-section-right .login-info-wrapper .popup-map {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.58;
+    padding: 10px;
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+    margin: 90px 0 0;
+    position: relative;
+    z-index: 1;
+}
+@media (max-width: 768px) {
+    #login-page {
+        display: initial;
+    }
+    .login-section-left,
+    .login-section-right {
+        width: 100%;
+    }
+    .login-section-left .login-form-wrapper,
+    .login-section-right .login-info-wrapper {
+        position: static;
+        top: auto;
+        left: auto;
+        transform: none;
+        margin: 0 auto;
+    }
+}
+@media (max-height: 520px) {
+    .login-section-left .login-form-wrapper,
+    .login-section-right .login-info-wrapper {
+        position: static;
+        top: auto;
+        left: auto;
+        transform: none;
+        margin: 0 auto;
+    }
+}
