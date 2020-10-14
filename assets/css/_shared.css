@@ -162,6 +162,16 @@ button:focus {
 }
 
 
+ul.reset-list,
+ol.reset-list,
+ul.sub-menu,
+.fl-pagi-ctlr ul,
+.reset-slect ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 
 /*
 --------------
@@ -209,11 +219,6 @@ button:focus {
 }
 .pv-select-field .dropdown-toggle::after{
     content: none;
-}
-
-.ftr-col-tp-bdr .dg-select-field .bootstrap-select.show .dropdown-toggle::before{
-    content: ""!important;
-    background-image: url(../images/down-tp-icon.png) !important;
 }
 
 .pv-select-field .open > .dropdown-toggle.btn-default:hover,
