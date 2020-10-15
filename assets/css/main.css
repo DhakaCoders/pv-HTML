@@ -8,6 +8,9 @@
 
 /*start of Shariful*/
 @import url('_header.css');
+@import url('_plant.css');
+@import url('_plant-comparison.css');
+@import url('_plant-comparison-1.css');
 
 
 /*start of Milon*/
@@ -16,6 +19,8 @@
 
 
 /*start of Noyon*/
+@import url('_notifications.css');
+
 
 
 
