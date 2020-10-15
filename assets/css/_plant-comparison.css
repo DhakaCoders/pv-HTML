@@ -1,0 +1,50 @@
+.plant-comparison-top{
+	padding: 35px 20px 55px 22px;
+	background: #E1E3EB;
+}
+.plant-comparison-title{
+	display: block;
+	font-size: 20px;
+	line-height: 1;
+	margin-bottom: 35px;
+	font-weight: 400;
+	color: #000028;
+	font-family: 'Roboto', sans-serif;
+	text-transform: capitalize;
+}
+
+.plant-comparison-top-select span{
+	display: block;
+	font-size: 13px;
+	color: #4C5E6F;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
+
+.plant-comparison-top-select{
+	margin-bottom: 15px;
+}
+
+.plant-comparison-top-select .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 1045px;
+}
+.plant-comparison-top-select .btn-light {
+    background-color: #FFFFFF;
+    border-color: #DAE0E6;
+}
+
+.plant-comparison-btn a{
+	font-size: 12px;
+    color: #008CD8;
+    text-transform: capitalize;
+    font-weight: 500;
+    background: #FFFFFF;
+    border-radius: 5px;
+    height: 34px;
+    width: 178px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
