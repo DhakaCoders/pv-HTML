@@ -1,10 +1,6 @@
 .Overview-grd-sec{
-	padding-top: 80px;
 	padding-left: 235px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
+	height: 400px;
 }
 .overview-grid-wrp{
 	background: #f1f2f8;
