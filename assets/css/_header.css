@@ -198,6 +198,7 @@
 	top: 80px;
 	bottom: 0;
 	height: 100%!important;
+	z-index: 2;
 }
 
 .left-sidebar{

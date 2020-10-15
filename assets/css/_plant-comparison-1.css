@@ -1,0 +1,77 @@
+.plant-comparison-1-ctlr{
+	background: #f1f2f8;
+	padding-bottom: 145px;
+}
+.plant-comparison-1-ctlr .plant-comparison-top{
+	background: #f1f2f8;
+	padding-bottom: 20px;
+}
+.plant-comparison-1-ctlr .plant-comparison-title{
+	margin-bottom: 0;
+}
+.plant-comparison-btm{
+	padding-left: 22px;
+}
+.plant-comparison-check{
+	float: left;
+	width: 27.5229%;
+}
+.plant-comparison-chart{
+	float: right;
+	width: 63.3027%;
+	padding-right: 20px;
+}
+
+.plant-comparison-check-inr{
+	padding: 22px;
+	background: #E1E3EB;
+	border-radius: 5px;
+}
+
+.plant-comparison-check-inr > span{
+	display: block;
+	font-size: 14px;
+	color: #4C5E6F;
+	margin-bottom: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.plant-comparison-check-inr ul li label{
+	padding-left: 25px;
+	position: relative;
+	font-size: 14px;
+	color: #000028;
+	font-weight: 400;
+}
+.plant-comparison-check-inr ul li label strong{
+	font-weight: 700;
+}
+.plant-comparison-check-inr ul li label input{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	height: 16px;
+	width: 16px;
+	border: 1px solid #fff;
+}
+
+.plant-comparison-1-ctlr .plant-comparison-btn a{
+	width: 230px;
+}
+.plant-comparison-1-ctlr .plant-temp-humbergar{
+	position: initial;
+	display: inline-block;
+	vertical-align: baseline;
+}
+.plant-comparison-1-ctlr .plant-temp-top-chart-hdr-rgt-date{
+	display: inline-block;
+	vertical-align: baseline;
+	margin-right: 15px;
+}
+.plant-comparison-1-ctlr .plant-temp-btm-chart-lft-inr{
+	margin-bottom: 35px;
+}
