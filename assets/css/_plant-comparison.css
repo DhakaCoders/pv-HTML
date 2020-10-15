@@ -48,3 +48,8 @@
     align-items: center;
     justify-content: center;
 }
+
+.plant-comparison-ctlr .plant-temp-chart{
+	background: #E1E3EB;
+	padding-bottom: 215px;
+}
