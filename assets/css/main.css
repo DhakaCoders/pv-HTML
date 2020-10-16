@@ -16,13 +16,16 @@
 
 /*start of Milon*/
 @import url('_overview-list.css');
-@import url('_documents.css');
+
 
 
 
 
 /*start of Noyon*/
 @import url('_notifications.css');
+@import url('_documents.css');
+@import url('_heatmap.css');
+
 
 
 
