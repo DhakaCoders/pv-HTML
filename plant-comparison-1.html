@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="assets/css/bootstrap-select.min.css" />
 		<link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/jQuery-UI.css">
 
 		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -252,38 +253,31 @@
 				<div class="plant-comparison-check-inr">
 					<form>
 						<span>Select Plants</span>
-						<ul class="reset-list">
-							<li>
-								<label><strong>Kalogerostani</strong> (Λάπας Αχαΐας)
-									<input type="checkbox">
-									<span class="checkmark"></span>
-								</label>
-							</li>
-							<li>
-								<label><strong>Kalogerostani</strong> (Λάπας Αχαΐας)
-									<input type="checkbox">
-									<!-- <span class="checkmark"></span> -->
-								</label>
-							</li>
-							<li>
-								<label><strong>Kronos</strong> (Μαυροβούνι Πέλλας)
-									<input type="checkbox">
-									<!-- <span class="checkmark"></span> -->
-								</label>
-							</li>
-							<li>
-								<label><strong>Kalogerostani</strong> (Λάπας Αχαΐας)
-									<input type="checkbox">
-									<!-- <span class="checkmark"></span> -->
-								</label>
-							</li>
-							<li>
-								<label><strong>Kalogerostani</strong> (Λάπας Αχαΐας)
-									<input type="checkbox">
-									<!-- <span class="checkmark"></span> -->
-								</label>
-							</li>
-						</ul>
+						<div class="filter-check-row">
+							<input type="checkbox">
+							<span class="checkmark"></span>
+							<label><strong>Kalogerostani</strong> (Λάπας Αχαΐας)</label>
+						</div>
+						<div class="filter-check-row">
+							<input type="checkbox">
+							<span class="checkmark"></span>
+							<label><strong>Kalogerostani</strong> (Λάπας Αχαΐας)</label>
+						</div>
+						<div class="filter-check-row">
+							<input type="checkbox">
+							<span class="checkmark"></span>
+							<label><strong>Kronos</strong> (Μαυροβούνι Πέλλας)</label>
+						</div>
+						<div class="filter-check-row">
+							<input type="checkbox">
+							<span class="checkmark"></span>
+							<label><strong>Kalogerostani</strong> (Λάπας Αχαΐας)</label>
+						</div>
+						<div class="filter-check-row">
+							<input type="checkbox">
+							<span class="checkmark"></span>
+							<label><strong>Kalogerostani</strong> (Λάπας Αχαΐας)</label>
+						</div>
 						<div class="plant-comparison-btn">
 							<a href="#">Compare Plants</a>
 						</div>
@@ -298,7 +292,7 @@
 		      			</div>
 		      			<div class="temp-chart-hdr-rgt">
 		      				<div class="temp-chart-hdr-rgt-date">
-		      					<input type="text" class="datepicker">
+		      					<input type="text" class="pvdatepicker">
 		      					<label>
 		      						<i>
 					                    <svg class="plant-date-icon-svg" width="16" height="16" viewBox="0 0 16 16">
@@ -329,7 +323,7 @@
 			      			</div>
 			      			<div class="temp-chart-hdr-rgt">
 			      				<div class="temp-chart-hdr-rgt-date">
-			      					<input type="text" class="datepicker">
+			      					<input type="text" class="pvdatepicker">
 			      					<label>
 			      						<i>
 						                    <svg class="plant-date-icon-svg" width="16" height="16" viewBox="0 0 16 16">
@@ -361,7 +355,7 @@
 			      			</div>
 			      			<div class="temp-chart-hdr-rgt">
 			      				<div class="temp-chart-hdr-rgt-date">
-			      					<input type="text" class="datepicker">
+			      					<input type="text" class="pvdatepicker">
 			      					<label>
 			      						<i>
 						                    <svg class="plant-date-icon-svg" width="16" height="16" viewBox="0 0 16 16">
@@ -398,6 +392,7 @@
 	<script type="text/javascript" src="assets/js/bootstrap-datetimepicker.min.js"></script>
 	<script type="text/javascript" src="assets/js/slick.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.sticky.js"></script>
+	<script src="assets/js/jqueryui.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>

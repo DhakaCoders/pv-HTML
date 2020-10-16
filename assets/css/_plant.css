@@ -207,10 +207,11 @@
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 1;
+    z-index: 10;
     border-radius: 5px;
     margin: 0;
     padding: 0;
+    padding-left: 25px;
 }
 .temp-chart-hdr-rgt-date label{
 	display: flex;
@@ -281,6 +282,14 @@
 	-webkit-box-shadow: 2px 2px 5px 2px rgba(229,230,236,0.75);
 	-moz-box-shadow: 2px 2px 5px 2px rgba(229,230,236,0.75);
 	box-shadow: 2px 2px 5px 2px rgba(229,230,236,0.75);
+}
+
+
+.ui-widget-header .ui-datepicker-prev .ui-icon {
+    background-image: url('../images/prev-arrow.png');
+}
+.ui-widget-header .ui-datepicker-next .ui-icon{
+	background-image: url('../images/next-arrow.png');
 }
 
 
