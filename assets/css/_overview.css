@@ -18,7 +18,7 @@
 	background: #fff;
 	padding: 20px 20px;
 	border-radius: 5px 5px;
-	border-top:5px solid#008CD8;
+	border-top:6px solid#008CD8;
 }
 .overview-grid-box-tp-title{
 	display: block;
@@ -75,7 +75,7 @@
 	background: #fff;
 	padding: 20px 10px 15px;
 	border-radius: 5px 5px;
-	border-top:5px solid#00D3AA;
+	border-top:8px solid#00D3AA;
 	position: relative;
 }
 .overview-grid-box-btm-inr > span{
@@ -237,7 +237,8 @@
 	height: 100%;
 	opacity: 0;
 }
-.checkbox-slider{
+.checkbox-slider2,
+.checkbox-slider1{
 	position: absolute;
 	left: 1px;
 	top: 2px;
@@ -248,14 +249,23 @@
 	-ms-transition: all 0.4s;
 	-webkit-transition: all 0.4s;
 }
-
-.switch-checkbox input:checked ~ .checkbox-slider{ 
-	right: 2px;
+.checkbox-slider2{
+	right: 1px;
 	left: auto;
+}
+.switch-checkbox input:checked ~ .checkbox-slider2,
+.switch-checkbox input:checked ~ .checkbox-slider1{ 
+	left: 1px;
 	background: #fff;
 }
-.checkbox-slider:after {
-    content: "\f0ca";
+.switch-checkbox input:checked ~ .checkbox-slider2{
+	left: auto;
+	right: 1px;
+	background: #fff;
+}
+.checkbox-slider2:after,
+.checkbox-slider1:after{
+    content: "\f009";
     font-family: "ForkAwesome";
     font-weight: 600;
     text-decoration: inherit;
@@ -267,8 +277,12 @@
     right: 7px;
     line-height: 15px;
 }
-.switch-checkbox input:checked ~ .checkbox-slider:after {
-    content: "\f0ca";
+.checkbox-slider2:after{
+	content: "\f0ca";
+}
+.switch-checkbox input:checked ~ .checkbox-slider2:after,
+.switch-checkbox input:checked ~ .checkbox-slider1:after {
+    content: "\f009";
     font-family: "ForkAwesome";
     font-weight: 600;
     text-decoration: inherit;
@@ -276,7 +290,10 @@
     font-size: 12px;
     padding-right: 0;
     position: absolute;
-    top: 6px;
-    right: 7px;
+    top: 7px;
+    right: 8px;
     line-height: 15px;
+}
+.switch-checkbox input:checked ~ .checkbox-slider2:after{
+	content: "\f0ca";
 }
