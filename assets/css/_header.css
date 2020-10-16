@@ -1,6 +1,7 @@
 .header{
 	padding: 22px 25px;
-	position: relative;
+	position: fixed;
+	z-index: 5;
 	left: 0;
 	top: 0;
 	right: 0;
@@ -193,7 +194,7 @@
 /*left sidebar*/
 
 .left-sidebar{
-	position: absolute;
+	position: fixed;
 	left: 0;
 	top: 80px;
 	bottom: 0;
@@ -243,4 +244,8 @@
 }
 .left-sidebar-ctlr ul li a:hover span{
 	color: #fff;
+}
+body ol.sitemap-pages{
+	padding: 50px;
+	list-style: decimal;
 }
