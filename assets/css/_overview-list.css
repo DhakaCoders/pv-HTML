@@ -409,3 +409,29 @@ td.tbl-col-5 span{
 .tbl-col-9{
   width: 7%;
 }
+
+
+/*
+-------------------
+ Responsive Css
+-------------------
+*/
+@media(max-width: 1199px){
+	
+}
+
+@media(max-width: 991px){
+
+}
+
+@media(max-width: 767px){
+
+}
+
+@media(max-width: 575px){
+
+}
+
+@media(max-width: 479px){
+
+}
