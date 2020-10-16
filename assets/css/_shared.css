@@ -200,7 +200,7 @@ ul.sub-menu,
     font-size: 12px;
     color: #008CD8;
     font-weight: 600;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 0;
     width: 160px;
     height: 35px;
@@ -208,7 +208,7 @@ ul.sub-menu,
     padding: 8px 12px 10px 12px;
 }
 
-.pv-select-field .dropdown-toggle::before {
+.pv-select-field .dropdown-toggle::before{
     content: "";
     font-size: 14px;
     padding-right: 0;
