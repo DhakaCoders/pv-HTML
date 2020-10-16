@@ -2,6 +2,10 @@
 	padding: 30px 20px 30px 22px;
 	background: #f1f2f8;
 }
+
+.devices-top{
+	margin-bottom: 25px;
+}
 .devices-top span{
 	display: inline-block;
 	vertical-align: baseline;
@@ -25,7 +29,7 @@
 }
 
 .devices-analysis-left-inr{
-	padding: 20px 25px 140px 22px;
+	padding: 20px 25px 75px 22px;
 	background: #E1E3EB;
 	border-radius: 5px;
 }
@@ -40,6 +44,18 @@
 }
 .decices-select{
 	margin-bottom: 25px;
+}
+
+.devices-ctlr .plant-top-lft-select .pv-select-field .bootstrap-select button {
+    font-size: 12px;
+    color: #000028;
+    font-weight: 900;
+    border-radius: 5px;
+    border: 0;
+    width: 190px;
+    height: 35px;
+    text-transform: uppercase;
+    padding: 8px 12px 10px 12px;
 }
 
 .devices-checkbox ul li label{
