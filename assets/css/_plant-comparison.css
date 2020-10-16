@@ -27,12 +27,19 @@
 	margin-bottom: 15px;
 }
 
-.plant-comparison-top-select .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
-    width: 1045px;
+.plant-comparison-select .pv-select-field .bootstrap-select button {
+    font-size: 12px;
+    color: #000028;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0;
+    width: 1040px;
+    height: 35px;
+    text-transform: capitalize;
+    padding: 8px 12px 10px 12px;
 }
-.plant-comparison-top-select .btn-light {
-    background-color: #FFFFFF;
-    border-color: #DAE0E6;
+.plant-comparison-select .pv-select-field .dropdown-toggle::before{
+	background-image: url(../images/select-down-arrow-black.svg) !important;
 }
 
 .plant-comparison-btn a{
