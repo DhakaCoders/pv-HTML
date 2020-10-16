@@ -1,0 +1,41 @@
+.heatmap-sec{
+	padding-left: 235px;
+	background: #f1f2f8;
+}
+.heatmap-sec-cntlr{
+    padding: 0 18px;
+    padding-bottom: 45px;
+    position: relative;
+}
+
+
+.heatmap-img img{
+	margin-left: auto;
+	margin-right: auto;
+}
+.heatmap-btm{
+	display: inline-block;
+	position: absolute;
+	right: 16px;
+	bottom: 23px;
+}
+.heatmap-btm span{
+	display: block;
+	font-family: 'Futura LT Regular';
+	font-size: 12px;
+	line-height: 1;
+	margin-bottom: 12px;
+}
+.heatmap-btm-img{
+	margin-bottom: 10px;
+}
+.heatmap-btm > ul{
+	display: flex;
+	align-items: center;
+}
+.heatmap-btm > ul > li{
+	width: 20%;
+	text-align: center;
+	font-family: 'Futura LT Regular';
+	font-size: 11px;
+}
