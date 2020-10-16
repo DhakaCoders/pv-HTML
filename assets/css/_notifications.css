@@ -1,6 +1,5 @@
 .my-notifications-sec{
 	padding-left: 235px;
-	padding-top: 80px;
 	background: #f1f2f8;
 }
 .my-notifications-sec-cntlr{
@@ -247,7 +246,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 100%;
-	background: #DAE0E6;
+	
 }
 .cheak input{
 	position: absolute;
@@ -257,12 +256,10 @@
 	bottom: 0;
 	width: 100%;
 	height: 100%;
-	opacity: 0;
+	background: #DAE0E6;
 	cursor: pointer;
 }
-.cheak input:checked ~ .checkmark{
-	background: green;
-}
+
 .ntfsn-items-cntlr table thead tr td{
 	padding: 12px 0 20px 0;
 	font-size: 13px;
