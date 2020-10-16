@@ -58,3 +58,144 @@
 	padding-left: 235px;
 	padding-top: 80px;
 }
+
+
+
+
+
+.info-slider-con:before{
+	border-left: 7px solid #efc850;
+    border-right: 5px solid transparent;
+    border-bottom: 268px solid transparent;
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 160%;
+    top: 0;
+    left: -4px;
+    z-index: -1;
+    transform-origin: bottom left;
+    -ms-transform: skew(-10deg, 0deg);
+    -webkit-transform: skew(-10deg, 0deg);
+    transform: skew(-1deg, 0deg);
+    z-index: 100000000000;
+}
+.info-con-inner{
+	-ms-transform: skew(10deg, 0deg);
+    -webkit-transform: skew(10deg, 0deg);
+    transform: skew(10deg, 0deg);
+}
+.info-slider-con h5.price{
+	font-size: 18px;
+	line-height: 20px;
+	color: #bd7f18;
+	margin: 0;
+    font-family: 'OpenSansBoldItalic';
+    margin-bottom: 6px;
+
+}
+
+.info-slider-con h4.name{
+	font-size: 13px;
+	line-height: 14px;
+	color: #011541;
+	margin: 0;
+    font-family: 'OpenSansSemibold';
+    text-transform: uppercase;
+}
+.info-slider-con h4.name:after{
+	content: '';
+	width: 90px;
+	height: 1px;
+	background: #8fafff;
+	display: inline-block;
+}
+.info-slider-con p{
+	position: relative;
+	margin-top: 6px;
+	margin-bottom: 5px;
+}
+.info-slider-con p:before {
+    content: url(../images/location-ico.png);
+    width: 20px;
+    display: inline-block;
+    height: 18px;
+    vertical-align: middle;
+}
+.info-slider-con a{
+	display: inline-block;
+	background: #375cb8;
+	font-size: 16px;
+	color: #fff;
+	padding: 6px 22px;
+	border-radius: 20px;
+	font-family: 'OpenSansSemiboldItalic';
+	vertical-align: top;
+	text-transform: uppercase;
+}
+.info-slider-con ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 12px;
+	font-size: 16px;
+	font-family: 'OpenSansRegular';
+}
+.info-slider-con ul li{
+	display: inline-block;
+	margin-left: 9px;
+	vertical-align: baseline;
+}
+.info-slider-con ul li:first-child{
+	margin-left: 0;
+}
+
+#storeMap .store-info-inner{
+	width: 520px;
+    border-bottom: 3px solid #efc850 !important;
+    background: #fff;
+    overflow: hidden;
+}
+[class*='si-shadow-wrapper']{
+	opacity: 0;
+}
+.si-content-wrapper{
+	background: transparent;
+    margin-top: 25px;
+}
+
+#storeMap .custom-close {
+    width: 38px;
+    height: 38px;
+    background: #fff;
+    position: absolute;
+    right: -30px;
+    top: -19px;
+    outline: 0!important;
+    border: 2px solid #eff0f3;
+    border-radius: 100%;
+    z-index: 102;
+    color: #9aa3b8;
+    font-size: 20px;
+    line-height: 1;
+}
+#storeMap .custom-close:hover{
+	border: 2px solid #efc850;
+}
+.si-pointer-bg-top{
+	border-top-color: #efc850;
+}
+#storeMap .box2 .store-info-inner{
+	border-bottom: 3px solid #375cb8 !important;
+}
+#storeMap .box2 .si-pointer-bg-top{
+	border-top-color: #375cb8;
+}
+#storeMap .box2 .info-slider-con:before{
+	border-left: 7px solid #375cb8;
+}
+#storeMap .gmnoprint .gm-style-mtc,
+#storeMap button.gm-fullscreen-control{
+	display: none;
+}
