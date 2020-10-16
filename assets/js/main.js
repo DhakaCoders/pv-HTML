@@ -1,4 +1,10 @@
 (function($) {
+
+
+	/*start Shariful*/
+	if( $('.datepicker').length ){
+	  $('.datepicker').datepicker();
+	}
     
 
 /*Start Noyon*/
