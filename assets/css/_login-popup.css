@@ -1,6 +1,14 @@
 .login-section-right{
 	position: relative;
 }
+.popup-solar-heat-map{
+	position: relative;
+	padding-top: 0;
+	padding-bottom: 0;
+/*	overflow-y: scroll;*/
+	height: 100vh;
+	padding-top: 20px;
+}
 .popup-solar-heat-map-cntlr{
 	position: absolute;
 	left: 0;
@@ -8,7 +16,40 @@
 	top: 0;
 	bottom: 0;
 	background: #fff;
+	z-index: 10;
+	display: none;
 }
 .popup-solar-heat-map{
 	text-align: center;
+}
+
+.popup-solar-heat-map img{
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+.popup-solar-heat-map .heatmap-btm{
+	right: auto;
+	left: 90px;
+	bottom: 33px;
+	display: flex;
+	align-items: center;
+}
+.popup-solar-heat-map .heatmap-btm-img{
+	padding-right: 15px;
+}
+
+.popup-close{
+	position: absolute;
+	right: 22px;
+	top: 22px;
+	width: 40px;
+	height: 40px;
+	background: #E8E8E8;
+	border-radius: 100% 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	z-index: 22;
 }
