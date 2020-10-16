@@ -65,10 +65,10 @@
 .overview-grid-btm-flow-wrp ul li:nth-child(4n+1){
 	clear: left;
 }
-.overview-grid-btm-flow-wrp ul li:nth-child(4n+1) .overview-grid-box-btm-inr{
+.overview-grid-btm-flow-wrp ul li:nth-child(5) .overview-grid-box-btm-inr{
 	border-color: #FD8D00;
 }
-.overview-grid-btm-flow-wrp ul li:nth-child(4n+2) .overview-grid-box-btm-inr{
+.overview-grid-btm-flow-wrp ul li:nth-child(6) .overview-grid-box-btm-inr{
 	border-color: #E5576C;
 }
 .overview-grid-box-btm-inr{
@@ -80,7 +80,7 @@
 }
 .overview-grid-box-btm-inr > span{
 	position: absolute;
-	top: -11px;
+	top: -12px;
 	right: 0;
 	font-size: 12px;
 	line-height: 14px;
@@ -143,12 +143,16 @@
 .overview-grid-box-chart-lft{
 	width: 50%;
 	float: left;
-	padding-right: 10px;
+	padding-right: 12px;
 }
 .overview-grid-box-chart-rgt{
 	width: 50%;
 	float: right;
-	padding-left: 10px;
+	padding-left: 12px;
+}
+.overview-grid-box-chart-rgt img,
+.overview-grid-box-chart-lft img{
+	width: 100%;
 }
 .overview-grid-box-chart-lr-title{
 	display: block;
@@ -198,6 +202,21 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.overview-grid-box-chart-btm-dsc span:hover,
+.overview-grid-box-chart-btm-dsc span:hover{
+	background:#00D3AA;
+	border-color: #00D3AA;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.overview-grid-box-chart-btm-dsc span:hover i svg{
+	fill: #fff;
 }
 .overview-switch-radio{
 	float: left;
