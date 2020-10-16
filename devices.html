@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="assets/css/bootstrap-select.min.css" />
 	<link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/jQuery-UI.css">
 
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -261,62 +262,66 @@
 			<div class="devices-analysis clearfix">
 				<div class="devices-analysis-left">
 					<div class="devices-analysis-left-inr">
-						<span>Detailed Analysis</span>
-						<div class="decices-select">
-							<select class="selectpicker">
-								<option value="SelectFactor">Select Factor</option>
-								<option value="SelectFactor1">Select Factor 1</option>
-								<option value="SelectFactor2">Select Factor 2</option>
-							</select>
-						</div>
-						<div class="devices-search">
-							<span>All devices</span>
-							<div class="ntfsn-cntn-top-lft-srch">
-								<input type="text" placeholder="Search Device">
-								<i>
-									<img src="assets/images/ntfsn-cntn-top-lft-srch-icon.png" alt="">
-								</i>
+						<form>
+							<span>Detailed Analysis</span>
+							<div class="decices-select">
+								<div class="pv-select-field">
+									<div class="select-input">
+										<div class="select-dep">
+											<select class="selectpicker">
+												<option value="SelectFactor">Select Factor</option>
+												<option value="SelectFactor1">Select Factor 1</option>
+												<option value="SelectFactor2">Select Factor 2</option>
+											</select>
+										</div>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="devices-checkbox">
-							<ul class="reset-list">
-								<li>
-									<label>Device 1
-										<input type="checkbox">
-									</label>
-								</li>
-								<li>
-									<label>Device 2
-										<input type="checkbox">
-									</label>
-								</li>
-								<li>
-									<label>Device 3
-										<input type="checkbox">
-									</label>
-								</li>
-								<li>
-									<label>Device 4
-										<input type="checkbox">
-									</label>
-								</li>
-								<li>
-									<label>Device 5
-										<input type="checkbox">
-									</label>
-								</li>
-								<li>
-									<label>Device 6
-										<input type="checkbox">
-									</label>
-								</li>
-								<li>
-									<label>Device 7
-										<input type="checkbox">
-									</label>
-								</li>
-							</ul>
-						</div>
+							<div class="devices-search">
+								<span>All devices</span>
+								<div class="ntfsn-cntn-top-lft-srch">
+									<input type="text" placeholder="Search Device">
+									<i>
+										<img src="assets/images/ntfsn-cntn-top-lft-srch-icon.png" alt="">
+									</i>
+								</div>
+							</div>
+							<div class="filter-check-row">
+								<input type="checkbox">
+								<span class="checkmark"></span>
+								<label>Device 1</label>
+							</div>
+							<div class="filter-check-row">
+								<input type="checkbox">
+								<span class="checkmark"></span>
+								<label>Device 2</label>
+							</div>
+							<div class="filter-check-row">
+								<input type="checkbox">
+								<span class="checkmark"></span>
+								<label>Device 3</label>
+							</div>
+							<div class="filter-check-row">
+								<input type="checkbox">
+								<span class="checkmark"></span>
+								<label>Device 4</label>
+							</div>
+							<div class="filter-check-row">
+								<input type="checkbox">
+								<span class="checkmark"></span>
+								<label>Device 5</label>
+							</div>
+							<div class="filter-check-row">
+								<input type="checkbox">
+								<span class="checkmark"></span>
+								<label>Device 6</label>
+							</div>
+							<div class="filter-check-row">
+								<input type="checkbox">
+								<span class="checkmark"></span>
+								<label>Device 7</label>
+							</div>
+						</form>
 					</div>
 				</div>
 				<div class="devices-temp-chart">
@@ -368,6 +373,7 @@
 	<script type="text/javascript" src="assets/js/bootstrap-datetimepicker.min.js"></script>
 	<script type="text/javascript" src="assets/js/slick.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.sticky.js"></script>
+	<script src="assets/js/jqueryui.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
