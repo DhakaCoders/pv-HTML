@@ -1,0 +1,35 @@
+Overview
+---------------------------
+---------------------------
+Desktop-->
+1. https://prnt.sc/v0rpnu
+	ai class ta chage kore ata daw  -> overview-grid-box-col
+
+2. https://prnt.sc/v0rr5r
+	j grd a ai span ta rakhbe sei rokom bg hobe ai span tar
+
+3. https://prnt.sc/v0rvd3
+	sob grd a mHc class use hobe
+
+
+
+Overview
+---------------------------
+---------------------------
+Desktop-->
+
+1. https://prnt.sc/v0ryx3
+	switch kaj korena
+	ata dekhe switch ta kore felo -> https://codepen.io/JiveDig/pen/jbdJXR
+2. https://prnt.sc/v0s18z
+	akta common class make korte hobe, 
+	ai khane jodi j class ta deoa hobe se color ar border hobe
+
+	.blue-top-bdr .sky-top-bdr  .orange-top-bdr  -> amon hote pare class gulo
+
+3. https://prnt.sc/v0vi2h
+	link hobe, ager page ai icon a link hobe
+	https://prnt.sc/v0vja3 --> ata niche rakhle responsive subidha hobe maybe
+
+
+
