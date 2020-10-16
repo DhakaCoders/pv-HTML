@@ -53,3 +53,8 @@
 	cursor: pointer;
 	z-index: 22;
 }
+
+.left-top-cntlr{
+	padding-left: 235px;
+	padding-top: 80px;
+}
