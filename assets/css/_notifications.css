@@ -126,6 +126,9 @@
 	width: 100%;
 	background: #fff;
 }
+.pv-select-field.black-caret .dropdown-toggle::before{
+    background-image: url(../images/down-black-up-icon.svg) !important;
+}
 
 
 .ntfsn-cntn-top-rt{
