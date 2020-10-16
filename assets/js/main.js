@@ -2,9 +2,9 @@
 
 
 	/*start Shariful*/
-	$( function() {
-	    $( ".datepicker" ).datepicker();
-	  } );
+	if( $('.datepicker').length ){
+	  $('.datepicker').datepicker();
+	}
     
 
 /*Start Noyon*/
