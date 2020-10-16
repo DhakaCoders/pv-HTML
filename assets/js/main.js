@@ -2,8 +2,8 @@
 
 
 	/*start Shariful*/
-	if( $('.datepicker').length ){
-	  $('.datepicker').datepicker();
+	if( $('.pvdatepicker').length ){
+	  $('.pvdatepicker').datepicker();
 	}
     
 
