@@ -38,39 +38,72 @@
 	text-transform: uppercase;
 }
 
-.plant-comparison-check-inr ul li label{
-	padding-left: 25px;
+.filter-check-row{
 	position: relative;
+	padding: 0 15px 15px 13px;
 	font-size: 14px;
-	color: #4C5E6F;
-	font-weight: 400;
 }
-.plant-comparison-check-inr ul li label strong{
+
+.filter-check-row input[type="checkbox"]{
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	left: 0;
+	z-index: 1;
+}
+.filter-check-row span.checkmark{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.checkmark:after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.filter-check-row input:checked ~ .checkmark:after {
+    display: block;
+}
+.filter-check-row input:checked ~ .checkmark{
+	background: #008CD8;
+	border: 1px solid #008CD8;
+}
+.filter-check-row input:checked ~ label{
+	color: #000028;
+}
+
+.filter-check-row .checkmark::after {
+	left: 4px;
+	top: 1px;
+	width: 5px;
+	height: 10px;
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+
+.filter-check-row label{
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 25px;
+	font-weight: 400;
+	color: #4C5E6F;
+	cursor: pointer;
+	margin: 0;
+}
+.filter-check-row label strong{
 	font-weight: 700;
 }
-.plant-comparison-check-inr ul li label input{
-	position: absolute;
-	top: 50%;
-	left: 0;
-	transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	height: 16px;
-	width: 16px;
-	border: 1px solid #fff!important;
-	z-index: 12;
-}
-/*.plant-comparison-check-inr ul li label span{
-	height: 16px;
-	width: 16px;
-	background: #fff;
-	border: 1px solid #fff;
-	position: absolute;
-	top: 2px;
-	left: 0;
-	margin-bottom: 0;
-	z-index: 11;
-}*/
+
 
 
 .plant-comparison-1-ctlr .plant-comparison-btn a{
