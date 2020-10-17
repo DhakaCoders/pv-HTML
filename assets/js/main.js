@@ -7,7 +7,7 @@
 	}
 
 	$('humbergar-icon').on('click', function(){
-		$(this).toggleClass('active');
+		$('left-sidebar').addClass('ls-active');
 		
 	});
     
