@@ -79,6 +79,15 @@
 .pvmap-sec-topbar-select .pv-select-field:first-child{
 	margin-right: 10px;
 }
+.pvmap-sec-topbar-select .pv-select-field .bootstrap-select button{
+	background: transparent!important;
+	height: 35px;
+}
+.pvmap-sec-topbar-select{
+	background: #fff;
+	box-shadow: 0 4px 10px #BEBEBE;
+	border-radius: 10px;
+}
 /*.left-top-cntlr{
 	padding-left: 235px;
 	padding-top: 80px;
