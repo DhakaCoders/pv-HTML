@@ -26,6 +26,8 @@ Desktop-->
 	ai khane jodi j class ta deoa hobe se color ar border hobe
 
 	.blue-top-bdr .sky-top-bdr  .orange-top-bdr  -> amon hote pare class gulo
+	Purple
+	.purple-top-bdr
 
 3. https://prnt.sc/v0vi2h
 	link hobe, ager page ai icon a link hobe

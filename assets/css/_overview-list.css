@@ -133,7 +133,7 @@ ov-flow-chart-list-grds
 	justify-content: center;
 	align-items: center;
 }
-.ov-flow-chart-list-inr > span{
+.ov-flow-chart-list-inr > a{
 	position: absolute;
 	right: -38px;
 	top: 50%;
