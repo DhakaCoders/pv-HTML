@@ -6,8 +6,8 @@
 	  $('.pvdatepicker').datepicker();
 	}
 
-	$('humbergar-icon').on('click', function(){
-		$('left-sidebar').addClass('ls-active');
+	$('.humbergar-icon').on('click', function(){
+		$('.left-sidebar').toggleClass('left-sidebar-collapse');
 		
 	});
     

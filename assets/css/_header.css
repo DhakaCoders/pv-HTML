@@ -304,3 +304,19 @@ body ol.sitemap-pages{
 	margin-bottom: 20px;
 	font-weight: 500;
 }
+
+.left-sidebar-collapse .left-sidebar-ctlr ul li a span{
+	display: none;
+}
+.left-sidebar-collapse .left-sidebar-ctlr ul li a{
+	display: inline-block;
+}
+.left-sidebar-collapse .left-sidebar-ctlr ul li a strong{
+	height: 12px;
+	width: 12px;
+	border-radius: 100%;
+	background: #E5576C;
+	padding: 0;
+	right: initial;
+	left: 7px;
+}

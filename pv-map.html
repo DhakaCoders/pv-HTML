@@ -130,134 +130,157 @@
 	</head>
 	<body>
 		<header class="header inline-bg clearfix" style="background: url('assets/images/hdr-bg.jpg');">
-			<div class="hdr-lft">
-				<div class="humbergar-cntlr">
-					<div class="humbergar-icon">
-						<span></span>
-						<span></span>
-						<span></span>
-					</div>
-				</div>
-				<div class="hdr-logo">
-					<a href="#"><img src="assets/images/logo.png"></a>
-				</div>
-			</div>
-			<div class="hdr-rgt">
-				<div class="hdr-shortcut">
-					<div class="hdr-shortcut-ctlr">
-						<i><img src="assets/images/hdr-repead-grd.png"></i>
-						<strong>Shortcuts (C+O)</strong>
-					</div>
-				</div>
-				<div class="hdr-notification">
-					<a href="#"><img src="assets/images/hdr-notification.png"></a>
+		<div class="hdr-lft">
+			<div class="humbergar-cntlr">
+				<div class="humbergar-icon">
+					<span></span>
+					<span></span>
 					<span></span>
 				</div>
-				<div class="hdr-lang">
+			</div>
+			<div class="hdr-logo">
+				<a href="#"><img src="assets/images/logo.png"></a>
+			</div>
+		</div>
+		<div class="hdr-rgt">
+			<div class="hdr-shortcut" data-toggle="modal" data-target="#pv-hdr-modal">
+				<div class="hdr-shortcut-ctlr">
+					<i><img src="assets/images/hdr-repead-grd.png"></i>
+					<strong>Shortcuts (C+O)</strong>
+				</div>
+			</div>
+			<div class="hdr-notification">
+				<a href="#"><img src="assets/images/hdr-notification.png"></a>
+				<span></span>
+			</div>
+			<div class="fl-lang reset-slect">
+				<div class="fl-lang-cntlr">
 					<ul class="reset-list">
 						<li class="lang-active"><a href="#">En</a></li>
-						<li><a href="#">English</a></li>
-						<li><a href="#">Dutch</a></li>
+						<li><a href="#">gr</a></li>
 					</ul>
 				</div>
-				<div class="hdr-profile">
-					<div class="hdr-profile-ctlr">
-						<i><img src="assets/images/hdr-user.png"></i>
-						<strong>G. Tsolakos</strong>
-					</div>
+			</div>
+			<div class="hdr-profile">
+				<div class="hdr-profile-ctlr">
+					<i><img src="assets/images/hdr-user.png"></i>
+					<strong>G. Tsolakos</strong>
 				</div>
 			</div>
-		</header>
+		</div>
+	</header>
 
-		<div class="left-sidebar">
-				<div class="left-sidebar-ctlr">
-					<ul class="reset-list">
-						<li>
-							<a href="#">
-								<i>
-									<svg class="hdr-overview-svg" width="17" height="13.514" viewBox="0 0 17 13.514" fill="#fff">
-		                              <use xlink:href="#hdr-overview-svg"></use>
-		                            </svg>
-								</i>
-								<span>OVERVIEW</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i>
-									<svg class="hdr-event-svg" width="16.444" height="17.359" viewBox="0 0 16.444 17.359" fill="#fff">
-		                              <use xlink:href="#hdr-event-svg"></use>
-		                            </svg>
-								</i>
-								<span>EVENTS</span>
-								<strong>44</strong>
-							</a>
-							
-						</li>
-						<li>
-							<a href="#">
-								<i>
-									<svg class="hdr-power-svg" width="16.813" height="27.511" viewBox="0 0 16.813 27.511" fill="#fff">
-		                              <use xlink:href="#hdr-power-svg"></use>
-		                            </svg>
-								</i>
-								<span>energy & power</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i>
-									<svg class="hdr-pv-map-svg" width="17.143" height="17.143" viewBox="0 0 17.143 17.143" fill="#fff">
-		                              <use xlink:href="#hdr-pv-map-svg"></use>
-		                            </svg>
-								</i>
-								<span>PV MAP</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i>
-									<svg class="hdr-heatmap-svg" width="14.345" height="23.002" viewBox="0 0 14.345 23.002" fill="#fff">
-		                              <use xlink:href="#hdr-heatmap-svg"></use>
-		                            </svg>
-								</i>
-								<span>HEATMAP</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i>
-									<svg class="hdr-documents-svg" width="17.61" height="17.2" viewBox="0 0 17.61 17.2" fill="#fff">
-		                              <use xlink:href="#hdr-documents-svg"></use>
-		                            </svg>
-								</i>
-								<span>Documents</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i>
-									<svg class="hdr-bell-icon-svg" width="15.224" height="18.471" viewBox="0 0 15.224 18.471" fill="#fff">
-		                              <use xlink:href="#hdr-bell-icon-svg"></use>
-		                            </svg>
-								</i>
-								<span>notifications</span>
-								<strong>3</strong>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i>
-									<svg class="hdr-search-svg" width="15.453" height="15.456" viewBox="0 0 15.453 15.456" fill="#fff">
-		                              <use xlink:href="#hdr-search-svg"></use>
-		                            </svg>
-								</i>
-								<span>Plant analysis</span>
-							</a>
-						</li>
-					</ul>
-				</div>
+	<!-- modal -->
+
+	<div class="modal fade" id="pv-hdr-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="padding-right:0;">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-body">
+	        <div class="pv-hdr-modal-content-ctlr">
+	          <div class="pv-hdr-modal-content">
+	            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	              <img src="assets/images/modal-close-btn.png">
+	            </button>
+	            <div class="pv-hdr-modal-des">
+	              <h2 class="pvhdr-modal-title">Lorem ipsum</h2>
+	              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="left-sidebar">
+			<div class="left-sidebar-ctlr">
+				<ul class="reset-list">
+					<li>
+						<a href="#">
+							<i>
+								<svg class="hdr-overview-svg" width="17" height="13.514" viewBox="0 0 17 13.514" fill="#fff">
+	                              <use xlink:href="#hdr-overview-svg"></use>
+	                            </svg>
+							</i>
+							<span>OVERVIEW</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i>
+								<svg class="hdr-event-svg" width="16.444" height="17.359" viewBox="0 0 16.444 17.359" fill="#fff">
+	                              <use xlink:href="#hdr-event-svg"></use>
+	                            </svg>
+							</i>
+							<span>EVENTS</span>
+							<strong>44</strong>
+						</a>
+						
+					</li>
+					<li>
+						<a href="#">
+							<i>
+								<svg class="hdr-power-svg" width="16.813" height="27.511" viewBox="0 0 16.813 27.511" fill="#fff">
+	                              <use xlink:href="#hdr-power-svg"></use>
+	                            </svg>
+							</i>
+							<span>energy & power</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i>
+								<svg class="hdr-pv-map-svg" width="17.143" height="17.143" viewBox="0 0 17.143 17.143" fill="#fff">
+	                              <use xlink:href="#hdr-pv-map-svg"></use>
+	                            </svg>
+							</i>
+							<span>PV MAP</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i>
+								<svg class="hdr-heatmap-svg" width="14.345" height="23.002" viewBox="0 0 14.345 23.002" fill="#fff">
+	                              <use xlink:href="#hdr-heatmap-svg"></use>
+	                            </svg>
+							</i>
+							<span>HEATMAP</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i>
+								<svg class="hdr-documents-svg" width="17.61" height="17.2" viewBox="0 0 17.61 17.2" fill="#fff">
+	                              <use xlink:href="#hdr-documents-svg"></use>
+	                            </svg>
+							</i>
+							<span>Documents</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i>
+								<svg class="hdr-bell-icon-svg" width="15.224" height="18.471" viewBox="0 0 15.224 18.471" fill="#fff">
+	                              <use xlink:href="#hdr-bell-icon-svg"></use>
+	                            </svg>
+							</i>
+							<span>notifications</span>
+							<strong>3</strong>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i>
+								<svg class="hdr-search-svg" width="15.453" height="15.456" viewBox="0 0 15.453 15.456" fill="#fff">
+	                              <use xlink:href="#hdr-search-svg"></use>
+	                            </svg>
+							</i>
+							<span>Plant analysis</span>
+						</a>
+					</li>
+				</ul>
 			</div>
+	</div>
 
 		   
 			<section class="mainContentSection">
