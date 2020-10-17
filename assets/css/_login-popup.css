@@ -54,6 +54,31 @@
 	z-index: 22;
 }
 
+.pvmap-sec-title{
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+.pvmap-sec-topbar{
+	background: #fff;
+	padding: 60px 20px 20px 23px;
+	display: flex;
+	align-items: center;
+}
+.pvmap-sec-title{
+	
+}
+.pvmap-sec-topbar-rgt{
+	margin-left: auto;
+	justify-content: flex-end;
+}
+.pvmap-sec-topbar-select{
+	display: flex;
+	align-items: center;
+}
+
+.pvmap-sec-topbar-select .pv-select-field:first-child{
+	margin-right: 10px;
+}
 /*.left-top-cntlr{
 	padding-left: 235px;
 	padding-top: 80px;
