@@ -14,12 +14,12 @@ var infowindow = new google.maps.InfoWindow();
     });
     var infocontent = 
     '<div class="store-info-inner clearfix">'+
-      
       '<div class="info-slider-con">'+
         '<div class="info-con-inner">'+
           '<h5 class="price">$5,450,000 MXN</h5>'+
           '<h4 class="name">Impecable Casa - Paseos del Bosque</h4>'+
           '<p>Paseo de Moctezuma 4, Paseos del Bosque, Naucalpan de Juárez</p>'+
+          '<a href="#">casa en venta</a>'+
         '</div>'+
       '</div>'+
     '</div>';
@@ -27,7 +27,7 @@ var infowindow = new google.maps.InfoWindow();
         { iwcontent: infocontent, uitype: 'custom-window box1', type: 'top', LatLng: { lat: 19.476130, lng: -99.233460 }, marker: 'assets/images/map-marker1.png' },
         { iwcontent: infocontent, uitype: 'custom-window box2', type: 'top', LatLng: { lat: 19.470910, lng: -99.269390 }, marker: 'assets/images/map-marker2.png' },
         { iwcontent: infocontent, uitype: 'custom-window box1', type: 'top', LatLng: { lat: 19.473280, lng: -99.273460 }, marker: 'assets/images/map-marker3.png' },
-        { iwcontent: infocontent, uitype: 'custom-window box2', type: 'top', LatLng: { lat: 19.476160, lng: -99.254210 }, marker: 'assets/images/map-marker4.png' }
+        { iwcontent: infocontent, uitype: 'custom-window box2', type: 'top', LatLng: { lat: 19.476160, lng: -99.254210 }, marker: 'assets/images/map-marker1.png' }
     ];
     $.each(placements, function(i, e) {
     //Marker
