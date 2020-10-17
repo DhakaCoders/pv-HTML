@@ -211,7 +211,10 @@
     border-radius: 5px;
     margin: 0;
     padding: 0;
-    padding-left: 25px;
+    padding-left: 35px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #4C5E6F;
 }
 .temp-chart-hdr-rgt-date label{
 	display: flex;
@@ -237,6 +240,8 @@
 }
 .temp-chart-hdr-rgt-date label span{
 	padding-left: 35px;
+	font-size: 12px;
+	color: #4C5E6F;
 }
 .temp-chart-humbergar{
 	display: inline-block;
@@ -285,11 +290,29 @@
 }
 
 
-.ui-widget-header .ui-datepicker-prev .ui-icon {
+.ui-datepicker-prev{
     background-image: url('../images/prev-arrow.png');
+    background-repeat: no-repeat;
+    background-color: #008CD8;
+    background-position: 50% 50%;
 }
-.ui-widget-header .ui-datepicker-next .ui-icon{
+.ui-datepicker-prev:hover{
+	 background-image: url('../images/prev-arrow.png')!important;
+    background-repeat: no-repeat!important;
+    background-color: #008CD8!important;
+    background-position: 50% 50%!important;
+}
+.ui-datepicker-next{
 	background-image: url('../images/next-arrow.png');
+	background-repeat: no-repeat;
+    background-color: #008CD8;
+    background-position: 50% 50%;
+}
+.ui-datepicker-next:hover{
+	background-image: url('../images/next-arrow.png')!important;
+	background-repeat: no-repeat!important;
+    background-color: #008CD8!important;
+    background-position: 50% 50%!important;
 }
 
 

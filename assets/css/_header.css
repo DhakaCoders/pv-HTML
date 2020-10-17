@@ -58,6 +58,7 @@
 
 .hdr-shortcut{
 	margin-right: 40px;
+	cursor: pointer;
 }
 .hdr-shortcut-ctlr{
 	display: flex;
@@ -254,7 +255,8 @@
 	padding-bottom: 10px;
 }
 .left-sidebar-ctlr ul li a{
-	display: block;
+	display: flex;
+	align-items: center;
 	position: relative;
 }
 .left-sidebar-ctlr ul li a i{

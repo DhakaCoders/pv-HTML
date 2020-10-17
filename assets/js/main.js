@@ -5,6 +5,11 @@
 	if( $('.pvdatepicker').length ){
 	  $('.pvdatepicker').datepicker();
 	}
+
+	$('humbergar-icon').on('click', function(){
+		$('left-sidebar').addClass('ls-active');
+		
+	});
     
 
 /*Start Noyon*/
