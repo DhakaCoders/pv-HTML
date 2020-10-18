@@ -6,6 +6,8 @@
 .plant-top-sec{
 	padding: 12px 22px;
 	background: #E1E3EB;
+	display: flex;
+	align-items: center;
 }
 .plant-top-lft{
 	float: left;
@@ -313,6 +315,99 @@
 	background-repeat: no-repeat!important;
     background-color: #008CD8!important;
     background-position: 50% 50%!important;
+}
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.plant-top-lft-select, 
+	.plant-top-lft-link{
+		margin-right: 10px;
+	}
+	.plant-top-lft-select .pv-select-field .bootstrap-select button{
+		width: 160px;
+	}
+	.plant-top-lft-link a{
+		width: 120px;
+	}
+	.plant-top-rgt-inverter {
+	    margin-right: 15px;
+	    padding: 5px 10px;
+	}
+	.ptgic-1 i, 
+	.ptgic-2 i, 
+	.ptgic-3 i{
+		width: 45px;
+		height: 45px;
+	}
+	.ptgic-1 i span, 
+	.ptgic-2 i span, 
+	.ptgic-3 i span{
+		font-size: 18px;
+	}
+	.plant-top-rgt-temp {
+	    padding: 6px 10px 10px 10px;
+	}
+
+}
+
+@media(max-width: 991px){
+	.plant-top-sec{
+		display: inherit;
+	}
+	.plant-top-lft {
+	    float: initial;
+	    margin-bottom: 20px;
+	}
+	.plant-top-rgt {
+	    float: initial;
+	}
+	.plant-temp-chart {
+	    padding: 28px 20px 50px 20px;
+	}
+	.temp-chart-hdr-title{
+		font-size: 16px;
+	}
+	.plant-temp-btm-chart-lft {
+	    width: 100%;
+	    padding-right: 0;
+	    margin-bottom: 30px;
+	}
+	.plant-temp-btm-chart-rgt {
+	    width: 100%;
+	    padding-left: 0;
+	}
+}
+
+@media(max-width: 767px){
+	
+
+}
+
+@media(max-width: 575px){
+	
+	
+	
+
+}
+
+@media(max-width: 479px){
+
+
+}
+
+@media(max-width: 359px){
+
 }
 
 
