@@ -247,7 +247,9 @@
 }
 
 
-
+.ntfsn-items-cntlr table{
+	width: 100%;
+}
 .ntfsn-items-cntlr table thead tr td{
 	padding: 12px 0 20px 0;
 	font-size: 13px;
@@ -309,7 +311,12 @@
 	}
 }
 @media(max-width: 991px){
-
+	.ntfsn-items-cntlr table thead{
+		display: none;
+	}
+	.ntfsn-items-cntlr table tbody tr td strong{
+		display: block;
+	}
 }
 @media(max-width: 767px){
 
