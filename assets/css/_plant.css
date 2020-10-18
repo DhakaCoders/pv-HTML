@@ -419,6 +419,16 @@
 	.ptgic-1 i span, .ptgic-2 i span, .ptgic-3 i span {
 	    font-size: 16px;
 	}
+	.plant-top-rgt-inverter-inr {
+	    display: inherit;
+	    text-align: center;
+	}
+	.plant-top-rgt-inverter{
+		padding-bottom: 10px;
+	}
+	.plant-top-rgt-inverter-des{
+		margin-bottom: 10px;
+	}
 	
 	
 
