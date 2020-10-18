@@ -320,3 +320,79 @@ body ol.sitemap-pages{
 	right: initial;
 	left: 7px;
 }
+
+
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	
+
+}
+
+@media(max-width: 991px){
+	
+}
+
+@media(max-width: 767px){
+	.humbergar-cntlr{
+		display: none;
+	}
+	.hdr-shortcut,
+	.hdr-notification,
+	.fl-lang{
+		margin-right: 20px;
+	}
+	.left-sidebar-ctlr ul li a span{
+		display: none;
+	}
+	.left-sidebar-ctlr ul li a{
+		display: inline-block;
+	}
+	.left-sidebar{
+		width: 90px;
+	}
+	.mainContentSection{
+		padding-left: 90px;
+	}
+
+
+}
+
+@media(max-width: 575px){
+	.mainContentSection{
+		padding-top: 132px;
+	}
+	.left-sidebar{
+		top: 132px;
+	}
+	
+
+}
+
+@media(max-width: 479px){
+	.mainContentSection{
+		padding-top: 170px;
+	}
+	.left-sidebar{
+		top: 170px;
+	}
+
+}
+
+@media(max-width: 359px){
+
+}
+
+

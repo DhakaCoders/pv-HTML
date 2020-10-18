@@ -1,7 +1,5 @@
 .plant-sec {
-    padding-left: 235px;
     position: relative;
-    padding-top: 80px;
 }
 .plant-top-sec{
 	padding: 12px 22px;
@@ -387,22 +385,59 @@
 	    width: 100%;
 	    padding-left: 0;
 	}
+	.temp-chart-hdr-lft {
+	    float: initial;
+	    text-align: center;
+	}
+	.temp-chart-hdr-rgt {
+	    float: initial;
+	    text-align: center;
+	}
 }
 
 @media(max-width: 767px){
-	
+	.temp-chart-hdr-title {
+	    font-size: 14px;
+	}
 
 }
 
 @media(max-width: 575px){
-	
+	.hdr-lft {
+	    float: initial;
+	    text-align: center;
+	    margin-bottom: 20px;
+	}
+	.hdr-rgt {
+	    float: initial;
+	    text-align: center;
+	}
+	.ptgic-1 i, .ptgic-2 i, .ptgic-3 i {
+	    width: 35px;
+	    height: 35px;
+	}
+	.ptgic-1 i span, .ptgic-2 i span, .ptgic-3 i span {
+	    font-size: 16px;
+	}
 	
 	
 
 }
 
 @media(max-width: 479px){
-
+	.hdr-shortcut, .hdr-notification, .fl-lang {
+	    margin-right: 60px;
+	}
+	.hdr-shortcut,
+	.hdr-notification{
+		margin-bottom: 10px;
+	}
+	.plant-temp-chart {
+	    padding: 21px 10px 40px 10px;
+	}
+	.plant-top-sec{
+		padding: 10px;
+	}
 
 }
 
