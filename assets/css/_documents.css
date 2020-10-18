@@ -23,6 +23,9 @@
 .documents-items-cntlr{
 
 }
+.documents-items-cntlr table{
+	width: 100%;
+}
 .documents-items-cntlr table tbody tr td{
 	padding-top: 22px;
 	padding-bottom: 20px;
@@ -142,6 +145,9 @@
 		padding-left: 0;
 		padding-right: 0;
 	}
+	.ntfsn-top{
+		padding-right: 18px;
+	}
 	.documents-items-cntlr table tbody tr td:nth-child(1){
 		min-width: 72px;
 		padding-left: 0;
@@ -161,8 +167,15 @@
 }
 
 @media(max-width: 575px){
+	.documents-items-cntlr{
+		
+	}
 	.documents-items-cntlr table{
 		overflow-x: scroll;
+		width: 600px;
+	}
+	.documents-cntn-cntlr{
+		box-shadow: none;
 	}
 }
 
