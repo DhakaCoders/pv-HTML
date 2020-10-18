@@ -33,7 +33,8 @@
     font-weight: 700;
     border-radius: 5px;
     border: 0;
-    width: 1040px;
+    max-width: 1040px;
+    width: 100%;
     height: 35px;
     text-transform: capitalize;
     padding: 8px 12px 10px 12px;
@@ -71,7 +72,9 @@
 }
 
 @media(max-width: 1299px){
-
+	.plant-comparison-select .pv-select-field .bootstrap-select button{
+		max-width: 930px;
+	}
 }
 
 @media(max-width: 1199px){
@@ -80,17 +83,32 @@
 }
 
 @media(max-width: 991px){
-	
+	.plant-comparison-title{
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
+	.plant-comparison-ctlr .plant-temp-chart{
+		padding-bottom: 160px;
+	}
 	
 }
 
 @media(max-width: 767px){
-	
+	.plant-comparison-title {
+	    font-size: 16px;
+	    margin-bottom: 25px;
+	}
+	.plant-comparison-ctlr .plant-temp-chart {
+	    padding-bottom: 130px;
+	}
 
 }
 
 @media(max-width: 575px){
-	
+	.plant-comparison-top {
+	    padding: 25px 20px 40px 22px;
+	    background: #E1E3EB;
+	}
 	
 	
 
