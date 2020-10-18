@@ -33,7 +33,7 @@
     font-weight: 700;
     border-radius: 5px;
     border: 0;
-    max-width: 1040px;
+    max-width: 100%;
     width: 100%;
     height: 35px;
     text-transform: capitalize;
@@ -55,6 +55,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.plant-comparison-btn a:hover{
+	background: #000028;
+	color: #fff;
 }
 
 .plant-comparison-ctlr .plant-temp-chart{
