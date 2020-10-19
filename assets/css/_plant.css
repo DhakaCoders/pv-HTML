@@ -415,6 +415,9 @@
 	    float: initial;
 	    text-align: center;
 	}
+	.temp-chart-hdr{
+		display: initial;
+	}
 }
 
 @media(max-width: 767px){
@@ -469,6 +472,25 @@
 	}
 	.plant-top-sec{
 		padding: 10px;
+	}
+	.plant-top-rgt-inr{
+		display: initial;
+	}
+	.plant-top-rgt-inverter{
+		margin-bottom: 10px;
+	}
+	.plant-top-rgt-inverter-des{
+		display: block;
+	}
+	.plant-top-rgt-inverter-des strong{
+		text-align: center;
+	}
+	.plant-top-rgt-inverter,
+	.plant-top-rgt-temp{
+		display: block;
+	}
+	.plant-top-rgt-inverter{
+		margin-right: 0;
 	}
 
 }
