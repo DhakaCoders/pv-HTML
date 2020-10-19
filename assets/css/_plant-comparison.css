@@ -76,9 +76,7 @@
 }
 
 @media(max-width: 1299px){
-	.plant-comparison-select .pv-select-field .bootstrap-select button{
-		max-width: 930px;
-	}
+
 }
 
 @media(max-width: 1199px){
@@ -113,13 +111,21 @@
 	    padding: 25px 20px 40px 22px;
 	    background: #E1E3EB;
 	}
-	
+	.plant-comparison-title {
+	    font-size: 14px;
+	    margin-bottom: 20px;
+	}
 	
 
 }
 
 @media(max-width: 479px){
-	
+	.plant-comparison-top{
+		padding: 20px 20px 30px 20px;
+	}
+	.plant-comparison-title {
+	    margin-bottom: 15px;
+	}
 
 }
 
