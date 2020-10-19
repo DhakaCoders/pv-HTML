@@ -457,10 +457,7 @@
 }
 
 @media(max-width: 479px){
-	.hdr-shortcut,
-	.hdr-notification{
-		margin-bottom: 10px;
-	}
+	
 	.plant-temp-chart {
 	    padding: 21px 10px 40px 10px;
 	}
