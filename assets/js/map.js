@@ -13,7 +13,7 @@ var infowindow = new google.maps.InfoWindow();
         center: center
     });
     var infocontent = 
-    '<div class="overview-grid-box-btm-inr">'+
+    '<div class="overview-grid-box-btm-inr orange-top-bdr ">'+
     '<span>2/4</span>'+
      '<div class="overview-grid-box-chart-tp-dsc">'+
        '<h5 class="overview-grid-box-chart-tp-title">Patra lorem ipsum</h5>'+
@@ -37,6 +37,7 @@ var infowindow = new google.maps.InfoWindow();
      '<div class="overview-grid-box-chart-btm-dsc clearfix">'+
        '<h5 class="chart-btm-dsc-title">10.550,54 kWh <b>today</b></h5>'+
        '<a href="#">'+
+        '<img src="assets/images/circle-next-icon.png">'+
        '</a>'+
      '</div>'+
    '</div>';
