@@ -11,6 +11,15 @@ Desktop-->
 3. https://prnt.sc/v0rvd3
 	sob grd a mHc class use hobe
 
+New--> 
+1. i) https://prnt.sc/v2m5xf
+	common border top color name a akta class thakbe. seta diye border color gulo control hobe
+   ii) https://prnt.sc/v2m712
+   	akta grd ar class name kokhono inr hoyna,
+   	 '-grd-col, -grd-item' asob type ar name dite hobe amader
+   	 same vul ta bar bar koro keno?
+   	 class name daw-> overview-status-grd-box 
+
 
 Responsive-->
 
