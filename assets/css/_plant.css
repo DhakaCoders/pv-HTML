@@ -193,6 +193,7 @@
 	font-size: 18px;
 	line-height: 1;
 	margin-bottom: 0px;
+	margin-right: 10px;
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
 	color: #000028;
@@ -396,6 +397,7 @@
 	}
 	.temp-chart-hdr-title{
 		font-size: 16px;
+		margin-right: 0;
 	}
 	.plant-temp-btm-chart-lft {
 	    width: 100%;
@@ -412,16 +414,19 @@
 	}
 	.temp-chart-hdr-rgt {
 	    justify-content: center;
+	    margin-bottom: 20px;
 	}
 	.temp-chart-hdr{
 		display: initial;
+		margin-bottom: 0;
+	}
+	.plant-temp-top-chart-img{
+		text-align: right;
 	}
 }
 
 @media(max-width: 767px){
-	.temp-chart-hdr-title {
-	    font-size: 14px;
-	}
+
 
 }
 
@@ -483,6 +488,18 @@
 	}
 	.plant-top-rgt-inverter{
 		margin-right: 0;
+	}
+	.plant-top-lft-select, .plant-top-lft-link{
+		display: block;
+		margin-right: 0;
+	}
+	.plant-top-lft-select .pv-select-field .bootstrap-select button,
+	.plant-top-lft-link a{
+		max-width: 100%;
+		width: 100%;
+	}
+	.plant-top-lft-select .pv-select-field .bootstrap-select button{
+		margin-bottom: 10px;
 	}
 
 }
