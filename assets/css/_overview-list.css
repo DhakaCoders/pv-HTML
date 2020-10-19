@@ -500,7 +500,7 @@ td.tbl-col-5 span{
 		padding-bottom: 10px;
 	}
 	.ev-table-select-wrp {
-	    padding-bottom: 20px;
+	    padding-bottom: 10px;
 	}
 	.recent-orders-tbl table tbody tr td.tbl-col-9,
 	.recent-orders-tbl table tbody tr td.tbl-col-8,
@@ -511,32 +511,45 @@ td.tbl-col-5 span{
 	.recent-orders-tbl table tbody tr td.tbl-col-3,
 	.recent-orders-tbl table tbody tr td.tbl-col-2,
 	.recent-orders-tbl table tbody tr td.tbl-col-1{
-	  width: 20% !important;
+	  width: 100% !important;
 	  display: block !important;
 	  float:left;
 	}
 	.recent-orders-tbl table tbody tr td.tbl-col-8{
-		width: 22% !important;
+		width: 100% !important;
 	}
-	.recent-orders-tbl table tbody tr td:nth-child(5n+1){
-		clear: left;
+	.recent-orders-tbl table tbody tr {
+	    border-bottom: 1px solid#ddd;
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	    display: inline-block;
+	    vertical-align: baseline;
+	}
+	.recent-orders-tbl table tbody tr:last-of-type{
+		border-bottom: 0;
 	}
 	.recent-orders-tbl table tbody tr td{
-	    padding-top: 10px;
-	    padding-bottom: 10px;
+	    padding-top: 8px;
+	    padding-bottom: 8px;
 	}
 	.recent-orders-tbl table tbody tr td strong{
 		display: inline-block;
 		vertical-align: baseline;
 		padding-right: 12px;
-		padding-bottom: 10px;
+		padding-bottom: 0;
+		float: left;
 	}
 	.recent-orders-tbl table tbody tr td span{
 		display: block;
 		padding-right: 0;
+		float: right;
+		text-align: right;
+	}
+	.recent-orders-tbl table tr td.tbl-col-8 span{
+		padding-right: 0;
 	}
 	.recent-orders-tbl table tbody tr td{
-		padding-right: 10px;
+		padding-right: 0;
 	}
 	.recent-orders-tbl table thead{
 		display: none;
@@ -608,26 +621,6 @@ td.tbl-col-5 span{
 	}
 	.ov-flow-chart-list-head.ov-flow-list-h-col-4{
 		padding-top: 0;
-	}
-	.recent-orders-tbl table tbody tr td.tbl-col-9,
-	.recent-orders-tbl table tbody tr td.tbl-col-8,
-	.recent-orders-tbl table tbody tr td.tbl-col-7,
-	.recent-orders-tbl table tbody tr td.tbl-col-6,
-	.recent-orders-tbl table tbody tr td.tbl-col-5,
-	.recent-orders-tbl table tbody tr td.tbl-col-4,
-	.recent-orders-tbl table tbody tr td.tbl-col-3,
-	.recent-orders-tbl table tbody tr td.tbl-col-2,
-	.recent-orders-tbl table tbody tr td.tbl-col-1{
-	  width: 33.3333% !important;
-	}
-	.recent-orders-tbl table tbody tr td.tbl-col-8{
-		width: 33.3333% !important;
-	}
-	.recent-orders-tbl table tbody tr td:nth-child(5n+1){
-		clear: none;
-	}
-	.recent-orders-tbl table tbody tr td:nth-child(3n+1){
-		clear: left;
 	}
 	.ev-table-search form {
 	    max-width: 150px;
@@ -725,6 +718,9 @@ td.tbl-col-5 span{
 	.tb-select-field .bootstrap-select button{
 		width: 130px;
 	}
+	.recent-orders-tbl table tbody tr td span{
+		width: 50%;
+	}
 }
 
 @media(max-width: 479px){
@@ -756,31 +752,11 @@ td.tbl-col-5 span{
 	.recent-orders-tbl{
 		padding: 0 5px;
 	}
-	.recent-orders-tbl table tbody tr td.tbl-col-9,
-	.recent-orders-tbl table tbody tr td.tbl-col-8,
-	.recent-orders-tbl table tbody tr td.tbl-col-7,
-	.recent-orders-tbl table tbody tr td.tbl-col-6,
-	.recent-orders-tbl table tbody tr td.tbl-col-5,
-	.recent-orders-tbl table tbody tr td.tbl-col-4,
-	.recent-orders-tbl table tbody tr td.tbl-col-3,
-	.recent-orders-tbl table tbody tr td.tbl-col-2,
-	.recent-orders-tbl table tbody tr td.tbl-col-1{
-	  width: 100% !important;
-	}
-	.recent-orders-tbl table tbody tr td:nth-child(3n+1){
-		clear: none;
-	}
-	.recent-orders-tbl table tbody tr td:nth-child(2n+1){
-		clear: none;
-	}
 	.ev-page-wrp {
 	    padding: 25px 10px 20px;
 	}
 	.ev-table-wrp{
 		padding: 20px 10px; 
-	}
-	.recent-orders-tbl table tbody tr td {
-	    padding-right: 5px;
 	}
 }
 @media(max-width: 359px){
