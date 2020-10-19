@@ -37,3 +37,11 @@
 	font-family: 'Futura LT Regular';
 	font-size: 11px;
 }
+
+
+@media(max-width: 991px){
+	.heatmap-btm{
+		right: initial;
+		left: 16px;
+	}
+}
