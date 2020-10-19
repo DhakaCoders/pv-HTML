@@ -69,16 +69,6 @@ var infowindow = new google.maps.InfoWindow();
             callbacks: {
                 open: function() {
                     $(this.getWrapper()).addClass('open');
-                  if( $(this.getWrapper()).find('.info-slider').length ){
-                        $(this.getWrapper()).find('.info-slider').slick({
-                          dots: true,
-                          infinite: false,
-                          speed: 300,
-                          slidesToShow: 1,
-                          slidesToScroll: 1,
-                          arrows: false,
-                        });
-                    }
                 },
                 afterOpen: function() {
                     var wrapper = $(this.getWrapper());
