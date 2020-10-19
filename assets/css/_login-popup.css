@@ -52,6 +52,13 @@
 	justify-content: center;
 	cursor: pointer;
 	z-index: 22;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.popup-close:hover{
+	background: #BEBBBB;
+
 }
 
 .pvmap-sec-title{
