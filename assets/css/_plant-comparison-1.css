@@ -21,6 +21,7 @@
 	float: right;
 	width: 70%;
 	padding-left: 12px;
+	padding-right: 20px;
 }
 
 .plant-comparison-check-inr{
@@ -43,6 +44,7 @@
 	padding: 0 15px 15px 13px;
 	font-size: 14px;
 }
+
 
 .filter-check-row input[type="checkbox"]{
 	position: absolute;
@@ -105,7 +107,9 @@
 }
 
 
-
+.plant-comparison-1-ctlr .plant-comparison-btn{
+	margin-top: 12px;
+}
 .plant-comparison-1-ctlr .plant-comparison-btn a{
 	width: 230px;
 }
@@ -138,29 +142,52 @@
 }
 
 @media(max-width: 1199px){
-	
+	.plant-comparison-check{
+		width: 100%;
+		padding-right: 20px;
+		margin-bottom: 20px;
+	}
+	.plant-comparison-chart {
+	    width: 100%;
+	    padding-left: 0;
+	    padding-right: 20px;
+	}
+	.plant-comparison-check-inr .filter-check-row{
+		padding-bottom: 5px;
+	}
 
 }
 
 @media(max-width: 991px){
-	
+	.plant-comparison-1-ctlr{
+		padding-bottom: 120px;
+	}
 	
 }
 
 @media(max-width: 767px){
-	
+	.plant-comparison-check-inr form span{
+		margin-bottom: 10px;
+	}
+	.plant-comparison-1-ctlr {
+	    padding-bottom: 100px;
+	}
 
 }
 
 @media(max-width: 575px){
-	
+	.plant-comparison-1-ctlr {
+	    padding-bottom: 80px;
+	}
 	
 	
 
 }
 
 @media(max-width: 479px){
-	
+	.plant-comparison-1-ctlr .plant-comparison-btn a {
+	    width: 160px;
+	}
 
 }
 
