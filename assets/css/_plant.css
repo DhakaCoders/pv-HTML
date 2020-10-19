@@ -181,6 +181,7 @@
 .temp-chart-hdr{
 	display: flex;
 	align-items: center;
+	margin-bottom: 15px;
 }
 .temp-chart-hdr-rgt{
 	margin-left: auto;
