@@ -377,6 +377,12 @@
 		min-width: 87px;
 		font-weight: 400;
 	}
+	.ntfsn-items-cntlr table tbody tr{
+		display: block;
+		padding: 10px;
+		margin-bottom: 20px;
+		border: 2px solid #000028;
+	}
 }
 @media(max-width: 767px){
 
@@ -389,6 +395,7 @@
 	.ntfsn-top-select{
 		margin-bottom: 15px;
 		width: 100%;
+		text-align: center;
 	}
 	.my-notifications-sec-cntlr{
 		padding-right: 0;
@@ -401,6 +408,9 @@
 	}
 	.ntfsn-items-cntlr table{
 		width: 600px;
+		
+	}
+	.ntfsn-items-cntlr{
 		overflow-x: scroll;
 	}
 }
