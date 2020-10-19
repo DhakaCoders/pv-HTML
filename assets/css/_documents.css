@@ -147,6 +147,7 @@
 	}
 	.ntfsn-top{
 		padding-right: 18px;
+		padding-left: 18px;
 	}
 	.documents-items-cntlr table tbody tr td:nth-child(1){
 		min-width: 72px;
@@ -171,11 +172,12 @@
 		
 	}
 	.documents-items-cntlr table{
-		overflow-x: scroll;
+		
 		width: 600px;
 	}
 	.documents-cntn-cntlr{
 		box-shadow: none;
+		overflow-x: scroll;
 	}
 }
 
