@@ -129,7 +129,7 @@
 		width: 200px;
 	}
 	.devices-analysis-left-inr{
-		padding-bottom: 32px;
+		padding-bottom: 5px;
 	}
 }
 
@@ -148,11 +148,16 @@
 	.devices-analysis-left-inr .filter-check-row{
 		padding-bottom: 5px;
 	}
+	.devices-analysis-left-inr {
+	    padding-bottom: 20px;
+	}
 
 }
 
 @media(max-width: 991px){
-	
+	.devices-top{
+		margin-bottom: 15px;
+	}
 	
 }
 
