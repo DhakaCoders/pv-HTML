@@ -126,6 +126,10 @@
 .plant-comparison-1-ctlr .plant-temp-btm-chart-lft-inr{
 	margin-bottom: 35px;
 }
+.plant-comparison-1-ctlr .filter-check-row .checkmark::after {
+    left: 4px;
+    top: 1px;
+}
 
 
 
@@ -186,7 +190,8 @@
 
 @media(max-width: 479px){
 	.plant-comparison-1-ctlr .plant-comparison-btn a {
-	    width: 160px;
+	    max-width: 100%;
+	    width: 100%;
 	}
 
 }
