@@ -191,7 +191,7 @@
 	display: block;
 	font-size: 18px;
 	line-height: 1;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
 	color: #000028;
@@ -406,12 +406,11 @@
 	    padding-left: 0;
 	}
 	.temp-chart-hdr-lft {
-	    float: initial;
 	    text-align: center;
+	    margin-bottom: 10px;
 	}
 	.temp-chart-hdr-rgt {
-	    float: initial;
-	    text-align: center;
+	    justify-content: center;
 	}
 	.temp-chart-hdr{
 		display: initial;
@@ -458,9 +457,6 @@
 }
 
 @media(max-width: 479px){
-	.hdr-shortcut, .hdr-notification, .fl-lang {
-	    margin-right: 60px;
-	}
 	.hdr-shortcut,
 	.hdr-notification{
 		margin-bottom: 10px;

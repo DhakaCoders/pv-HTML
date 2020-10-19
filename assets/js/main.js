@@ -7,7 +7,7 @@
 	}
 
 	$('.humbergar-icon').on('click', function(){
-		$('.left-sidebar').toggleClass('left-sidebar-collapse');
+		$('body').toggleClass('left-sidebar-collapse');
 		
 	});
     
