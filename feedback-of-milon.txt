@@ -12,8 +12,26 @@ Desktop-->
 	sob grd a mHc class use hobe
 
 
+Responsive-->
 
-Overview
+1. https://prnt.sc/v2ivjn
+	1199px a 3 ta 
+	991px a 2 ta
+	575px a 1 ta-> max width diye maje thakbe
+
+2. https://prnt.sc/v2iyo3
+	767px a aigulo right a daw, r top text ta left ai thak
+
+3. https://prnt.sc/v2izz6
+	575px a width 100% lagbena. bcoz img ta fete jasche 100% dile
+
+
+
+
+
+
+
+overview-list
 ---------------------------
 ---------------------------
 Desktop-->
@@ -32,6 +50,16 @@ Desktop-->
 3. https://prnt.sc/v0vi2h
 	link hobe, ager page ai icon a link hobe
 	https://prnt.sc/v0vja3 --> ata niche rakhle responsive subidha hobe maybe
+
+
+
+New->>
+1. https://prnt.sc/v2j2fi
+	hover effects koi?
+
+2. https://prnt.sc/v2j599
+	kon lebel ar konta content ata to bujay jayna. events page ar table ar moto korte hobe.
+	ul li diye manage korte parle table use korte lagbena. just label gulo tabel a jemon show hide korechi amra , sei technique apply korte hobe. 
 
 
 
