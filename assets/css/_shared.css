@@ -282,7 +282,8 @@ ul.sub-menu,
 .pv-select-field .dropdown-menu>.active>a, 
 .pv-select-field .dropdown-menu>.active>a:focus, 
 .pv-select-field .dropdown-menu>.active>a:hover{
-    background-color:#c7a46f;
+    background-color:#000028;
+    color: #fff;
 }
 .pv-select-field .bootstrap-select .btn-default{
     color: #fff;

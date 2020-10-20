@@ -138,7 +138,10 @@
 }
 
 @media(max-width: 767px){
-
+	.documents-cntn-cntlr{
+		margin-left: 18px;
+		margin-right: 18px;
+	}
 }
 @media(max-width: 639px){
 	.documents-sec-cntlr{
@@ -147,6 +150,7 @@
 	}
 	.ntfsn-top{
 		padding-right: 18px;
+		padding-left: 18px;
 	}
 	.documents-items-cntlr table tbody tr td:nth-child(1){
 		min-width: 72px;
@@ -171,11 +175,12 @@
 		
 	}
 	.documents-items-cntlr table{
-		overflow-x: scroll;
+		
 		width: 600px;
 	}
 	.documents-cntn-cntlr{
 		box-shadow: none;
+		overflow-x: scroll;
 	}
 }
 

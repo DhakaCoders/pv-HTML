@@ -66,6 +66,10 @@
 	padding-bottom: 215px;
 }
 
+.plant-comparison-ctlr .bootstrap-select.show-tick .dropdown-menu li a span.text{
+	margin-bottom: 0;
+}
+
 
 @media(max-width: 1499px){
 
@@ -97,7 +101,6 @@
 
 @media(max-width: 767px){
 	.plant-comparison-title {
-	    font-size: 16px;
 	    margin-bottom: 25px;
 	}
 	.plant-comparison-ctlr .plant-temp-chart {
@@ -112,8 +115,8 @@
 	    background: #E1E3EB;
 	}
 	.plant-comparison-title {
-	    font-size: 14px;
 	    margin-bottom: 20px;
+	    text-align: center;
 	}
 	
 
@@ -125,6 +128,10 @@
 	}
 	.plant-comparison-title {
 	    margin-bottom: 15px;
+	}
+	.plant-comparison-ctlr .plant-comparison-btn a{
+		max-width: 100%;
+		width: 100%;
 	}
 
 }

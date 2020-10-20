@@ -146,9 +146,12 @@
 	border: none;
 	cursor: pointer;
 }
+.ntfsn-cntn-top-rt-dlt-btn button:hover{
+	background: #000028;
+}
 .ntfsn-cntn-top-rt-dlt-btn i{
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	-ms-transform: translate(-50%,-50%);
 	-webkit-transform: translate(-50%,-50%);
@@ -246,6 +249,10 @@
     border: 1px solid #008CD8;
 }
 
+.my-notifications-sec-cntlr .filter-check-row span.checkmark{
+	top: 0;
+}
+
 
 .ntfsn-items-cntlr table{
 	width: 100%;
@@ -291,6 +298,10 @@
     top: 2px;
 }
 
+.ntfsn-item-btn a:hover{
+	color: #000028;
+}
+
 
 @media(max-width: 1299px){
 	.ntfsn-items-cntlr table tbody tr td:nth-child(4){
@@ -298,6 +309,12 @@
 	}
 }
 @media(max-width: 1199px){
+	.hide-lg{
+		display: none!important;
+	}
+	.show-lg{
+		display: block!important;
+	}
 	.ntfsn-cntn-top{
 		flex-wrap: wrap;
 	}
@@ -333,6 +350,14 @@
 	.ntfsn-cntn-top-title{
 		display: inline-block;
 	}
+	.ntfsn-cntn-top-lft-slct-cntlr{
+		padding-left: 0;
+		padding-right: 25px;
+	}
+	.ntfsn-cntn-top-lft-select{
+		display: inline-block;
+		vertical-align: baseline;
+	}
 }
 @media(max-width: 991px){
 	.ntfsn-items-cntlr{
@@ -342,10 +367,17 @@
 		flex-wrap: wrap;
 	}
 	.ntfsn-cntn-top-title,
-	.ntfsn-cntn-top-lft-srch,
-	.ntfsn-cntn-top-lft-slct-cntlr{
+	.ntfsn-cntn-top-lft-srch{
 		width: 100%;
 		margin-bottom: 15px;
+	}
+	.ntfsn-cntn-top-title{
+		text-align: center;
+	}
+	.ntfsn-cntn-top-lft-srch,
+	.ntfsn-cntn-top-lft-srch input{
+		max-width: 100%;
+		width: 100%;
 	}
 	.ntfsn-cntn-top-lft-slct-cntlr{
 		padding-left: 0;
@@ -377,6 +409,15 @@
 		min-width: 87px;
 		font-weight: 400;
 	}
+	.ntfsn-items-cntlr table tbody tr{
+		display: block;
+		padding: 10px;
+		margin-bottom: 20px;
+		border: 2px solid #EEF0F4;
+	}
+	.ntfsn-items-cntlr table tbody tr td:last-child{
+		border-bottom: none;
+	}
 }
 @media(max-width: 767px){
 
@@ -389,6 +430,7 @@
 	.ntfsn-top-select{
 		margin-bottom: 15px;
 		width: 100%;
+		text-align: center;
 	}
 	.my-notifications-sec-cntlr{
 		padding-right: 0;
@@ -401,7 +443,22 @@
 	}
 	.ntfsn-items-cntlr table{
 		width: 600px;
+		
+	}
+	.ntfsn-items-cntlr{
 		overflow-x: scroll;
+	}
+	.ntfsn-cntn-top-rt{
+		display: initial;
+	}
+	.ntfsn-cntn-top-rt-dlt-btn,
+	.ntfsn-cntn-top-rt-slct-cntlr{
+		display: inline-block;
+		vertical-align: baseline;
+	}
+	.ntfsn-cntn-top-lft-slct-cntlr{
+		text-align: center;
+    	margin-bottom: 20px;
 	}
 }
 @media(max-width: 479px){

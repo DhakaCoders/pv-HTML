@@ -115,6 +115,11 @@
 	margin-bottom: 0;
 }
 
+.devices-ctlr .filter-check-row .checkmark::after {
+    left: 4px;
+    top: 1px;
+}
+
 
 @media(max-width: 1499px){
 
@@ -189,7 +194,6 @@
 		display: initial;
 	}
 	.devices-top span {
-	    font-size: 16px;
 	    margin-right: 0;
 	    margin-bottom: 10px;
 	}

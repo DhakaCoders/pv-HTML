@@ -13,16 +13,34 @@ var infowindow = new google.maps.InfoWindow();
         center: center
     });
     var infocontent = 
-    '<div class="store-info-inner clearfix">'+
-      '<div class="info-slider-con">'+
-        '<div class="info-con-inner">'+
-          '<h5 class="price">$5,450,000 MXN</h5>'+
-          '<h4 class="name">Impecable Casa - Paseos del Bosque</h4>'+
-          '<p>Paseo de Moctezuma 4, Paseos del Bosque, Naucalpan de Juárez</p>'+
-          '<a href="#">casa en venta</a>'+
-        '</div>'+
-      '</div>'+
-    '</div>';
+    '<div class="overview-grid-box-btm-inr orange-top-bdr ">'+
+    '<span>2/4</span>'+
+     '<div class="overview-grid-box-chart-tp-dsc">'+
+       '<h5 class="overview-grid-box-chart-tp-title">Patra lorem ipsum</h5>'+
+       '<h2 class="overview-grid-box-chart-title-1">Kalogerostani <b>100kW</b></h2>'+
+     '</div>'+
+     '<div class="overview-grid-box-chart-inr">'+
+        '<span><i><img src="assets/images/chart-time.svg"></i>5 min ago</span>'+
+       '<div class="overview-grid-box-chart clearfix">'+
+         '<div class="overview-grid-box-chart-lft">'+
+           '<img src="assets/images/chart-icon-lft.png">'+
+           '<h5 class="overview-grid-box-chart-lr-title">Power</h5>'+
+           '<span>226 kW</span>'+
+         '</div>'+
+         '<div class="overview-grid-box-chart-rgt">'+
+           '<img src="assets/images/chart-icon-rgt.png">'+
+           '<h5 class="overview-grid-box-chart-lr-title">Irradiance</h5>'+
+           '<span>226 W/m<sup>2</sup></span>'+
+         '</div>'+
+       '</div>'+
+     '</div>'+
+     '<div class="overview-grid-box-chart-btm-dsc clearfix">'+
+       '<h5 class="chart-btm-dsc-title">10.550,54 kWh <b>today</b></h5>'+
+       '<a href="#">'+
+        '<img src="assets/images/circle-next-icon.png">'+
+       '</a>'+
+     '</div>'+
+   '</div>';
     var placements = [
         { iwcontent: infocontent, uitype: 'custom-window box1', type: 'top', LatLng: { lat: 19.476130, lng: -99.233460 }, marker: 'assets/images/map-marker1.png' },
         { iwcontent: infocontent, uitype: 'custom-window box2', type: 'top', LatLng: { lat: 19.470910, lng: -99.269390 }, marker: 'assets/images/map-marker2.png' },
@@ -69,16 +87,6 @@ var infowindow = new google.maps.InfoWindow();
             callbacks: {
                 open: function() {
                     $(this.getWrapper()).addClass('open');
-                  if( $(this.getWrapper()).find('.info-slider').length ){
-                        $(this.getWrapper()).find('.info-slider').slick({
-                          dots: true,
-                          infinite: false,
-                          speed: 300,
-                          slidesToShow: 1,
-                          slidesToScroll: 1,
-                          arrows: false,
-                        });
-                    }
                 },
                 afterOpen: function() {
                     var wrapper = $(this.getWrapper());
