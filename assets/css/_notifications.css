@@ -43,6 +43,7 @@
 	display: flex;
 	align-items: center;
 	padding: 24px 0;
+	padding-left: 18px;
 }
 .ntfsn-cntn-top-lft{
 	margin-right: auto;
@@ -105,7 +106,7 @@
 	align-items: center;
 	padding-left: 35px;
 }
-.ntfsn-cntn-top-lft-slct-cntlr span{
+.ntfsn-cntn-top-lft-slct-cntlr > span{
 	display: inline-block;
 	color: #4C5E6F;
 	font-size: 13px;
@@ -138,7 +139,6 @@
 	display: none;
 }
 .ntfsn-cntn-top-rt-dlt-btn{
-	position: relative;
 	margin-right: 16px;
 }
 .ntfsn-cntn-top-rt-dlt-btn button{
@@ -148,13 +148,14 @@
 	border-radius: 50%;
 	border: none;
 	cursor: pointer;
+	position: relative;
 }
 .ntfsn-cntn-top-rt-dlt-btn button:hover{
 	background: #000028;
 }
-.ntfsn-cntn-top-rt-dlt-btn i{
+.ntfsn-cntn-top-rt-dlt-btn button i{
 	position: absolute;
-	top: 45%;
+	top: 50%;
 	left: 50%;
 	-ms-transform: translate(-50%,-50%);
 	-webkit-transform: translate(-50%,-50%);
@@ -238,9 +239,7 @@
 .ntfsn-items-cntlr{
 
 }
-/*.cheak-row-ntfsn{
-	padding: 0;
-}*/
+
 .filter-check-row.cheak-row-ntfsn span.checkmark{
 	background: #DAE0E6;
 	width: 18px;
@@ -320,6 +319,7 @@
 	}
 	.ntfsn-cntn-top{
 		flex-wrap: wrap;
+		padding-left: 0;
 	}
 	.ntfsn-cntn-top-lft{
 		width: 100%;
@@ -342,7 +342,7 @@
 		min-width: 75px;
 	}
 	.ntfsn-items-cntlr table tbody tr td:nth-child(4){
-		padding-right: 13px;
+		padding-right: 18px;
 	}
 	.ntfsn-items-cntlr table tbody tr td:nth-child(5){
 		min-width: 15px;
@@ -360,6 +360,23 @@
 	.ntfsn-cntn-top-lft-select{
 		display: inline-block;
 		vertical-align: baseline;
+	}
+	.ntfsn-cntn-top-lft{
+		flex-wrap: wrap;
+	}
+	.ntfsn-cntn-top-rt{
+		justify-content: center;
+	}
+	.ntfsn-cntn-top-title,
+	.ntfsn-cntn-top-lft-srch{
+		width: 100%;
+		margin-bottom: 15px;
+		margin: auto;
+		margin-bottom: 15px;
+	}
+	.ntfsn-cntn-top-title{
+		text-align: center;
+		margin-right: 0;
 	}
 }
 @media(max-width: 991px){
@@ -381,8 +398,7 @@
 		text-align: center;
 		margin-right: 0;
 	}
-	.ntfsn-cntn-top-lft-srch/*,
-	.ntfsn-cntn-top-lft-srch input*/{
+	.ntfsn-cntn-top-lft-srch{
 		max-width: 280px;
 		width: 100%;
 		margin: auto;
@@ -444,9 +460,6 @@
 		max-width: 280px;
 		margin: auto;
 	}
-	.my-notifications-sec-cntlr{
-		padding-right: 0;
-	}
 	.ntfsn-cntn-cntlr{
 		box-shadow: none;
 	}
@@ -474,6 +487,9 @@
     	margin-bottom: 20px;
     	padding-right: 0;
     	width: 100%;
+	}
+	.ntfsn-cntn-top-lft-slct-cntlr > span{
+		margin-bottom: 15px;
 	}
 }
 @media(max-width: 479px){
