@@ -36,7 +36,8 @@
 	border-radius: 5px;
 }
 
-.devices-search span{
+.devices-search > span,
+.detailed-analysis > span{
 	display: block;
 	font-size: 14px;
 	color: #4C5E6F;

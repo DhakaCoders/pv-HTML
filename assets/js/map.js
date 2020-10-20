@@ -1,5 +1,7 @@
 $(function() {
    //create empty LatLngBounds object
+
+if( $('#storeMap').length ){
 var bounds = new google.maps.LatLngBounds();
 var infowindow = new google.maps.InfoWindow();
 
@@ -113,5 +115,5 @@ var infowindow = new google.maps.InfoWindow();
         //info.open();
     });
     map.fitBounds(bounds);
-
+}
 });
