@@ -12,12 +12,11 @@
 	<link rel="stylesheet" href="assets/css/slick-theme.css" />
 	<link rel="stylesheet" href="assets/css/bootstrap-select.min.css" />
 	<link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.css" />
+	<link rel="stylesheet" href="assets/snazzy-info-window/snazzy-info-window.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/jQuery-UI.css">
 
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
 	<svg style="display: none;">
 		<symbol id="hdr-overview-svg" data-name="Group 498" xmlns="http://www.w3.org/2000/svg" width="17" height="13.514" viewBox="0 0 17 13.514">
 		<g id="Group_497" data-name="Group 497">
@@ -106,46 +105,48 @@
 		<circle id="Ellipse_8" data-name="Ellipse 8" cx="0.625" cy="0.625" r="0.625" transform="translate(6 5.938)" fill="#4c5e6f"/>
 		</g>
 		</g>
-		</symbol>
+		</symbol>	
 	</svg>
-
 </head>
 <body>
 	<header class="header inline-bg clearfix" style="background: url('assets/images/hdr-bg.jpg');">
-		<div class="hdr-lft">
-			<div class="humbergar-cntlr">
-				<div class="humbergar-icon">
-					<span></span>
-					<span></span>
-					<span></span>
+		<div class="header-inr">
+			<div class="hdr-lft">
+				<div class="humbergar-cntlr">
+					<div class="humbergar-icon">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				<div class="hdr-logo">
+					<a href="#"><img src="assets/images/logo.png"></a>
 				</div>
 			</div>
-			<div class="hdr-logo">
-				<a href="#"><img src="assets/images/logo.png"></a>
-			</div>
-		</div>
-		<div class="hdr-rgt">
-			<div class="hdr-shortcut">
-				<div class="hdr-shortcut-ctlr">
-					<i><img src="assets/images/hdr-repead-grd.png"></i>
-					<strong>Shortcuts (C+O)</strong>
+			<div class="hdr-rgt clearfix">
+				<div class="hdr-shortcut" data-toggle="modal" data-target="#pv-hdr-modal">
+					<div class="hdr-shortcut-ctlr">
+						<i><img src="assets/images/hdr-repead-grd.png"></i>
+						<strong>Shortcuts (C+O)</strong>
+					</div>
 				</div>
-			</div>
-			<div class="hdr-notification">
-				<a href="#"><img src="assets/images/hdr-notification.png"></a>
-				<span></span>
-			</div>
-			<div class="hdr-lang">
-				<ul class="reset-list">
-					<li class="lang-active"><a href="#">En</a></li>
-					<li><a href="#">English</a></li>
-					<li><a href="#">Dutch</a></li>
-				</ul>
-			</div>
-			<div class="hdr-profile">
-				<div class="hdr-profile-ctlr">
-					<i><img src="assets/images/hdr-user.png"></i>
-					<strong>G. Tsolakos</strong>
+				<div class="hdr-notification">
+					<a href="#"><img src="assets/images/hdr-notification.png"></a>
+					<span></span>
+				</div>
+				<div class="fl-lang reset-slect">
+					<div class="fl-lang-cntlr">
+						<ul class="reset-list">
+							<li class="lang-active"><a href="#">En</a></li>
+							<li><a href="#">gr</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="hdr-profile">
+					<div class="hdr-profile-ctlr">
+						<i><img src="assets/images/hdr-user.png"></i>
+						<strong>G. Tsolakos</strong>
+					</div>
 				</div>
 			</div>
 		</div>
