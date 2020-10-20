@@ -340,6 +340,12 @@ box-shadow: 1px 1px 15px 0px rgba(241,242,242,1);
 .orange-top-bdr.overview-map-status-box > span{
 	background: #FD8D00;
 }
+.sitemap-pages li{
+	padding-bottom: 10px;
+}
+.sitemap-pages li a:focus{
+	text-decoration: underline;
+}
 @media(max-width: 1499px){
 
 }
