@@ -89,6 +89,9 @@
 	border-radius: 5px 5px;
 	border-top:8px solid#00D3AA;
 }
+.sky-top-bdr{
+	border-color:#00D3AA; 
+}
 .yello-top-bdr{
 	border-color:#FD8D00; 
 }
