@@ -172,16 +172,13 @@
 
 @media(max-width: 575px){
 	.documents-items-cntlr{
-		
+		overflow-x: scroll;
 	}
 	.documents-items-cntlr table{
 		
 		width: 600px;
 	}
-	.documents-cntn-cntlr{
-		box-shadow: none;
-		overflow-x: scroll;
-	}
+
 }
 
 @media(max-width: 479px){
