@@ -580,8 +580,9 @@ td.tbl-col-5 span{
 	.recent-orders-tbl table tbody tr td.tbl-col-2,
 	.recent-orders-tbl table tbody tr td.tbl-col-1{
 	  width: 100% !important;
-	  display: block !important;
+	  display: flex !important;
 	  float:left;
+	  align-items: center;
 	}
 	.recent-orders-tbl table tbody tr td.tbl-col-8{
 		width: 100% !important;
@@ -612,6 +613,7 @@ td.tbl-col-5 span{
 		padding-right: 0;
 		float: right;
 		text-align: right;
+		margin-left: auto;
 	}
 	.recent-orders-tbl table tr td.tbl-col-8 span{
 		padding-right: 0;
@@ -757,6 +759,13 @@ td.tbl-col-5 span{
 	}
 	.recent-orders-tbl table tbody tr td span{
 		width: 50%;
+	}
+	.ev-table-search form{
+		max-width: 100%;
+		width: 100%;
+	}
+	.tb-select-field label{
+		min-width: 60px;
 	}
 }
 
