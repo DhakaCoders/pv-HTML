@@ -481,10 +481,11 @@ body ol.sitemap-pages{
 	}
 	.hdr-rgt{
 		display: block;
-		max-width: 250px;
+		max-width: 270px;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
+		padding-left: 31px;
 	}
 	.fl-lang-cntlr ul{
 		padding-left: 0;
