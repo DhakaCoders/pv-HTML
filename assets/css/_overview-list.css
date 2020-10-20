@@ -762,7 +762,7 @@ td.tbl-col-5 span{
 	    margin: 0 auto;
 	}
 	.recent-orders-tbl{
-		padding: 0 5px;
+		padding:0;
 	}
 	.ev-page-wrp {
 	    padding: 25px 10px 20px;
