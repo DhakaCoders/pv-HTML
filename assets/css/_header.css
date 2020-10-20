@@ -465,6 +465,7 @@ body ol.sitemap-pages{
 	}
 	.hdr-notification{
 		text-align: left;
+		padding-left: 7px;
 	}
 	.fl-lang ul li.lang-active,
 	.fl-lang ul li a,
@@ -476,7 +477,24 @@ body ol.sitemap-pages{
 	}
 	.hdr-notification span{
 		right: initial;
-		left: 12px;
+		left: 18px;
+	}
+	.hdr-rgt{
+		display: block;
+		max-width: 250px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.fl-lang-cntlr ul{
+		padding-left: 0;
+	}
+	.fl-lang ul li.lang-active,
+	.fl-lang-cntlr:hover li{
+		padding-left: 0;
+	}
+	.fl-lang-cntlr{
+		max-width: 50px;
 	}
 
 }
