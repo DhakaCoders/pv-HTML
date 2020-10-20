@@ -478,6 +478,20 @@ body ol.sitemap-pages{
 		right: initial;
 		left: 12px;
 	}
+	.hdr-rgt{
+		display: block;
+		max-width: 250px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.fl-lang-cntlr ul{
+		padding-left: 0;
+	}
+	.fl-lang ul li.lang-active,
+	.fl-lang-cntlr:hover li{
+		padding-left: 0;
+	}
 
 }
 
