@@ -293,7 +293,7 @@ box-shadow: 1px 1px 15px 0px rgba(241,242,242,1);
 	color: #0096d4;
 }
 .si-pointer-bg-top{
-	border-top-color: #efc850;
+	border-top-color: #fff;
 }
 #storeMap .box2 .store-info-inner{
 	border-bottom: 3px solid #375cb8 !important;
@@ -308,7 +308,9 @@ box-shadow: 1px 1px 15px 0px rgba(241,242,242,1);
 #storeMap button.gm-fullscreen-control{
 	display: none;
 }
-
+.si-pointer-top{
+	border-width: 15px;
+}
 .overview-map-status-box{
 	background: #fff;
 	padding: 20px 15px 25px;
