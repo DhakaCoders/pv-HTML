@@ -13,7 +13,7 @@ var infowindow = new google.maps.InfoWindow();
         center: center
     });
     var infocontent = 
-    '<div class="overview-grid-box-btm-inr orange-top-bdr ">'+
+    '<div class="overview-grid-status-box overview-map-status-box orange-top-bdr">'+
     '<span>2/4</span>'+
      '<div class="overview-grid-box-chart-tp-dsc">'+
        '<h5 class="overview-grid-box-chart-tp-title">Patra lorem ipsum</h5>'+
