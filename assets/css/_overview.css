@@ -24,7 +24,10 @@
 	background: #fff;
 	padding: 20px 20px;
 	border-radius: 5px 5px;
-	border-top:6px solid#008CD8;
+	border-top:6px solid transparent;
+}
+.blue-top-bdr{
+	border-color:#008CD8 !important; 
 }
 .sky-top-bdr{
 	border-color: #00D3AA!important;
@@ -89,7 +92,7 @@
 	border-radius: 5px 5px;
 	border-top:8px solid#00D3AA;
 }
-.sky-top-bdr{
+.aqua-top-bdr{
 	border-color:#00D3AA; 
 }
 .yello-top-bdr{
