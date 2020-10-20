@@ -134,6 +134,9 @@
 	display: flex;
 	align-items: center;
 }
+.ntfsn-cntn-top-rt .ntfsn-cntn-top-lft-slct-cntlr{
+	display: none;
+}
 .ntfsn-cntn-top-rt-dlt-btn{
 	position: relative;
 	margin-right: 16px;
