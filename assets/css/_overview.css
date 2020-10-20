@@ -90,7 +90,7 @@
 }
 .common-border-top{
 	border-radius: 5px 5px;
-	border-top:8px solid#00D3AA;
+	border-top:8px solid transparent;
 }
 .aqua-top-bdr{
 	border-color:#00D3AA; 
