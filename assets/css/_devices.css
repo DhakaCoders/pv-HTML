@@ -157,12 +157,29 @@
 	.devices-analysis-left-inr {
 	    padding-bottom: 20px;
 	}
+	.devices-analysis-left-inr form{
+		display: flex;
+	}
+	.detailed-analysis{
+		order: 2;
+		width: 50%;
+	}
+	.devices-seacrch-filter-ctlr{
+		order: 1;
+		width: 50%;
+	}
 
 }
 
 @media(max-width: 991px){
 	.devices-top{
 		margin-bottom: 15px;
+	}
+	.detailed-analysis{
+		padding-left: 15px;
+	}
+	.devices-seacrch-filter-ctlr{
+		width: 45%;
 	}
 	
 }
@@ -177,6 +194,16 @@
 	.devices-analysis-left-inr span, 
 	.devices-search span{
 		margin-bottom: 10px;
+	}
+	.devices-analysis-left-inr form {
+	    display: block;
+	}
+	.detailed-analysis {
+	    padding-left: 0;
+	    width: 100%;
+	}
+	.devices-seacrch-filter-ctlr {
+	    width: 100%;
 	}
 
 }
