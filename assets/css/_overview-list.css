@@ -499,6 +499,7 @@ td.tbl-col-5 span{
 	.ov-flow-chart-list{
 		width: 100%;
 		text-align: right;
+		position: relative;
 	}
 
 	.ov-flow-chart-list-grd-head-wrp ul li:first-child {
@@ -531,8 +532,13 @@ td.tbl-col-5 span{
 	}
 	.ov-flow-chart-list .ov-flow-chart-list-head {
 	    padding: 0;
-	    float: left;
 	    display: block;
+	    position: absolute;
+	    top: 50%;
+	    left: 0;
+	    transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	    -webkit-transform: translateY(-50%);
 	}
 	.ov-flow-chart-list-head span{
 	    display: inline-block;
